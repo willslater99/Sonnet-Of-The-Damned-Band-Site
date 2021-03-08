@@ -39,8 +39,10 @@ dissuaded by two extra clicks of the hamburger icon and the page name.
 wireframes but has been displayed open on this first wireframe to provide the general idea of its design and how it would
 appear on all pages when opened)
 
-[Home-Wireframe](http://tiny.cc/Sonnet-Home-Wireframe)
+[Home-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-home-wireframe.png)
 
+
+[Home-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-home-mobile-wireframe.png)
 ### NEWS UX/UI
 
 * The news page provides a purpose to user for finding out about what the band are up to, as fans of artists often want to
@@ -52,7 +54,9 @@ with their information manually, although in an ideal world with enough time I w
 piece of news on the left and likely use a javascript library to make them automatically shift to the right by one each 
 time a new one is added. 
 
-[News-Wireframe](http://tiny.cc/Sonnet-News-Wireframe)
+[News-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-news-wireframe.png)
+
+[News-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-news-mobile-wireframe.png)
 
 ### TOUR UX/UI
 
@@ -64,7 +68,9 @@ efficient way while not requiring the user to scroll down for a long time to fin
 can get a nearby tour date infront of someone's eyes, the better, but if we use too many boxes or too small text the shows
 will get lost amongst each other and be useless to anyone other than the most determined user. 
 
-[Tour-Wireframe](http://tiny.cc/Sonnet-Tour-Wireframe)
+[Tour-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-tour-wireframe.png)
+
+[Tour-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-tour-mobile-wireframe.png)
 
 ### MERCH UX/UI
 
@@ -81,7 +87,9 @@ product being advertised. The picture is the truly important point and thus take
 necessary information such as sizing for clothing, descriptions, fabric types, etc. can be provided on the other side of
 the external link.
 
-[Merch-Wireframe](http://tiny.cc/Sonnet-Merch-Wireframe)
+[Merch-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-merch-wireframe.png)
+
+[Merch-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-merch-mobile-wireframe.png)
 
 #### ABOUT UX/UI
 
@@ -102,7 +110,9 @@ for either those looking for information about the band members (questions like 
 again?" are solved by this) or for those that were really, genuinely intrigued by the information in the first section and
 want to know more. 
 
-[About-Wireframe](http://tiny.cc/Sonnet-About-Wireframe)
+[About-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-about-wireframe.png)
+
+[About-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-about-mobile-wireframe.png)
 
 ### HEADER UX/UI
 
