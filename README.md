@@ -41,8 +41,11 @@ appear on all pages when opened)
 
 [Home-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-home-wireframe.png)
 
-
 [Home-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-home-mobile-wireframe.png)
+
+[Home-Tablet-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-home-tablet-wireframe.png)
+
+
 ### NEWS UX/UI
 
 * The news page provides a purpose to user for finding out about what the band are up to, as fans of artists often want to
@@ -58,6 +61,8 @@ time a new one is added.
 
 [News-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-news-mobile-wireframe.png)
 
+[News-Tablet-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-news-tablet-wireframe.png)
+
 ### TOUR UX/UI
 
 * The tour page is designed with two large boxes each containing the dates and locations of performances, each date having a
@@ -71,6 +76,8 @@ will get lost amongst each other and be useless to anyone other than the most de
 [Tour-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-tour-wireframe.png)
 
 [Tour-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-tour-mobile-wireframe.png)
+
+[Tour-Tablet-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-tour-tablet-wireframe.png)
 
 ### MERCH UX/UI
 
@@ -90,6 +97,8 @@ the external link.
 [Merch-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-merch-wireframe.png)
 
 [Merch-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-merch-mobile-wireframe.png)
+
+[Merch-Tablet-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-merch-tablet-wireframe.png)
 
 #### ABOUT UX/UI
 
@@ -113,6 +122,8 @@ want to know more.
 [About-PC-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-about-wireframe.png)
 
 [About-Mobile-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-about-mobile-wireframe.png)
+
+[About-Tablet-Wireframe](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/Wireframes/sonnet-about-tablet-wireframe.png)
 
 ### HEADER UX/UI
 
