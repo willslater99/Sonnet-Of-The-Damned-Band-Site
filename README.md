@@ -212,6 +212,36 @@ band that a built in payment system wouldn't, but are far more realistic and man
 shaping the site into the halfs, thirds and quarters I spoke about before to adaptation for mobile devices and different
 screen sizes, bootstraps pre-included classes helped massively with the construction of the site.
 
+## DIFFICULTIES AND BUGS 
+
+### BUILDING THE NAVBAR
+
+The first difficulty started right from minute 1, as I began my project with building the navbar, intending to handle all of
+the features that applied to all the pages first (header, footer, navbar). Straight away I struggled as my navbar button
+wasn't doing anything when I clicked on it. After looking through Bootstrap documentation I realised I'd imported the main 
+bootstrap library but not the JQuery and JS sections, so it made sense it wasn't responding. After that I was having two
+issues.
+
+[Bootstrap Documentation On Importing The Library](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+
+
+* The first being that I needed my collapsible navbar to appear horizontal/inline on tablets and desktops and vertical 
+on mobile and couldn't work it out. The problem was I was looking through bootstrap documentation for something like this
+but only finding information on navbars that weren't collapsible at all on desktops. I eventually decided I was wasting my 
+own time trying to solve this through classes and just used a media query to do it. 
+
+* The second was that I needed to center the list elements in the navbar and the band name. By inspecting the page I realised
+the margin aligning the band name/link to the left was the problem and by setting it to margin:auto in css was able to fix 
+this right away, but the same didn't apply for my unordered list and its child elements. I then tried to use mx-auto (boot-
+strap's built in centering class) as well as text-align: center in css, and still had no luck. I looked through various stack-
+overflow pages on google for help with my problem but couldn't figure it out, but then noticed that the list elements were
+centering in mobile view but not desktop or tablet. I used this information to look through the media query I had created, 
+realising that something that was different between them would give me my answer. From there I realised that while attempting
+to make my list items appear inline for desktop view I had assigned the unordered list to float: left, but in the media 
+query had assigned it the value of float: none. I changed the float to none in the desktop view and it immediately worked with
+my text-align: center; from there, showing me that the float: left was essentially blocking all my attempts to center the list 
+and that its likely that any of the things I tried to center it would have worked.
+
 
 ## TESTING
 

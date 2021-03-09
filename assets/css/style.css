@@ -1,0 +1,33 @@
+
+/*------- Navbar -------*/
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+#navbarmenu > ul {
+    display: inline;
+    text-align: center;
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+.navbar {
+    text-align: center;
+}
+
+/*------- Mobile Media Queries -------*/
+
+@media only screen and (max-width: 600px) {
+    /*------- Making Navbar Vertical on Mobile -------*/
+  .navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+#navbarmenu > ul {
+    display: inline-flex;
+}
+}
