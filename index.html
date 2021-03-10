@@ -5,16 +5,43 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
         <title>Sonnet Of The Damned</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-l bg-dark navbar-dark">
-                <a href="index.html" class="navbar-brand">Sonnet Of The Damned</a>
+        <nav class="navbar navbar-expand-l navbar-dark">
+
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.twitter.com" target="_blank">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com" target="_blank">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
+                </ul>
+                
+                <a href="index.html" class="navbar-brand">
+                        <img src="assets/images/sonnet-logo-horizontal.png" id="band-logo" alt="Sonnet Of The Damned"  width="500" height="70">
+                </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu" aria-controls="#navbarmenu" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-light navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse mx-auto" id="navbarmenu">
@@ -27,5 +54,25 @@
                     </ul>
                 </div>
         </nav>
+        <footer class="container-fluid">
+            <div id="footer-details" class="row">
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">About</h5>
+                    <p class="inline-block">Full stack web developer. Skilled in HTML, CSS, Javascript and Python with specialisation in Bootstrap and various other libraries. Able to think and act quickly and resourcefully.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Download</h5>
+                    <p class="inline-block">Need a printable version of my CV? Download it here.</p>
+                    <a href="/assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download Link</span>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="uppercase general-sub">Social</h5>
+                
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
