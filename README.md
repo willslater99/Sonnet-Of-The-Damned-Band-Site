@@ -242,6 +242,27 @@ query had assigned it the value of float: none. I changed the float to none in t
 my text-align: center; from there, showing me that the float: left was essentially blocking all my attempts to center the list 
 and that its likely that any of the things I tried to center it would have worked.
 
+### ADJUSTING THE NAVBAR FOR MOBILE
+
+I had gotten the navbar how I wanted it on desktop, but the issue was that when viewed on mobile, the social media icons I had
+implemented were stacking above the band logo, causing a disjointed and very odd look that didn't fit at all with the wireframes
+I'd designed for mobile. I spent some time researching this on the internet but wasn't really getting anywhere, as although I
+knew this problem could be fixed by moving the social media icons below the band logo in the HTML, it would break the desktop
+layout I had worked very hard to achieve. In the end I contacted code institute tech-support for this, where I was given a
+brilliant piece of advice. Duplicate the code, having a copy of the social media icons below and above the band logo in the 
+HTML, assign both UL's containing the icons their own individual ID and then using the media queries I had already created,
+give the mobile UL a value of display: none; and the desktop UL a value of display: block;, then simply copy that into my
+media query for mobile devices and reverse the two. A perfect solution and one I'm likely to use again throughout this project.
+
+### CHANGING THE NAVBAR ICON COLOR
+
+I wanted to change the color of the toggler icon but was struggling to figure out how to do so, as simply assigning values like
+border-color: white; weren't changing anything. Bootstrap by default comes with two classes for this, navbar-dark and navbar-
+light, but they provide an offwhite and grey color that both didn't really fufill my needs. I looked it up online and was 
+eventually able to find a solution by borrowing code from [this](https://www.codeply.com/go/4FdZGlPMNV/bootstrap-4-custom-navbar-toggler-icon-color) website, which explained that 
+bootstrap provides the color of the icon through the use of an SVG background image, and so it was recommended to use the 
+link they provided and then simply change the RGB values and stroke size to fit your needs, after that you can just define the
+border-width and border-color as normal. 
 
 ## TESTING
 
