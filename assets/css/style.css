@@ -75,6 +75,139 @@
     display: none;
 }
 
+/*------- Footer -------*/
+
+footer {
+    background-color: black;
+    color: #fafafa;
+    min-height: 80px;
+    margin: 0;
+}
+
+#legal-info {
+    margin: 28px 0;
+    position: absolute;
+    left: 20px;
+}
+
+.social-links-footer {
+    padding-bottom: 0px;
+    padding-top: 12px;
+    position: absolute;
+    right: 20px;
+}
+
+.social-links-footer li a i {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin: 15px 10px;
+    padding: 12px 0;
+    border-radius: 25%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: black;
+    background: white;
+        transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.social-links-footer li a i:hover {
+    background-color: black;
+    color: white;
+}
+
+/*------- Index.html -------*/
+
+.initial-container {
+    height: 70vh;
+
+    background: url("../images/hero-image.jpg") no-repeat top right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+
+.jumbotron {
+    background-color: rgba(0,0,0,.9);
+    color: white;
+    min-height: 400px;
+    min-width: 700px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.small-about-container {
+    background-color: rgb(247, 247, 247);
+
+}
+
+.about-the-band-jumbo {
+    background-color: rgba(0,0,0,.0);
+    border-style: none;
+    min-height: 400px;
+}
+
+#small-band-photo {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-right: 10px;
+}
+
+#about-the-band-small {
+    margin-left: 10px;
+}
+
+#about-the-band-home-text {
+    margin: 50px 0;
+    color: black;
+}
+
+.jumbotron-header.about-the-band-home-header {
+    color: black;
+}
+
+#find-out-more {
+    color:black;
+}
+
+#band-info-desktop {
+    display: block;
+}
+
+#band-info-mobile {
+    display: none;
+}
+
+#band-info-tablet {
+    display: none;
+}
+
 /*------- Mobile Media Queries -------*/
 
 @media only screen and (max-width: 600px) {
@@ -134,6 +267,77 @@
     margin-top: 20px;
 }
 
+/*------- Optimising Footer on Mobile -------*/
+
+#legal-info {
+    text-align: center;
+    margin: 10px 20px 20px 0px;
+}
+
+.social-links-footer {
+    display: none;
+}
+
+footer {
+    min-height: 60px;
+}
+
+/*------- Index.html on Mobile -------*/
+
+.news-and-new-release {
+    min-height: 300px;
+    min-width: 300px;
+    font-size: 25px;
+}
+
+.initial-container {
+    height: 140vh
+}
+
+.jumbotron.about-the-band-jumbo {
+    margin: 0 auto;
+    min-width: 350px;
+}
+
+.about-the-band-jumbo {
+    background-color: rgba(0,0,0,.0);
+    border-style: none;
+    min-height: 300px;
+    max-width: 350px;
+    margin: 0 10px;
+}
+
+#small-band-photo {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    max-width: 350px;
+    max-height: 250px;
+    display: block;
+}
+
+#about-the-band-small {
+    max-width: 350px;
+}
+
+#about-the-band-home-text {
+    margin: 25px 0;
+    color: black;
+}
+
+#band-info-desktop {
+    display: none;
+}
+
+#band-info-mobile {
+    display: block;
+    margin: 0 auto;
+}
+
+#band-info-tablet {
+    display: none;
+}
+
 }
 
 
@@ -165,6 +369,50 @@
 
 .navbar-toggler {
     margin-right: 10px;
+}
+
+
+/*------- Index.html on Tablet -------*/
+
+.news-and-new-release {
+    min-height: 450px;
+    min-width: 350px;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#band-info-desktop {
+    display: none;
+}
+
+#band-info-mobile {
+    display: none;
+}
+
+#band-info-tablet {
+    display: block;
+    margin: 0 auto;
+}
+
+#about-the-band-small {
+    display: block;
+}
+
+#small-band-photo {
+    min-width: 400px;
+}
+
+.about-the-band-jumbo {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.about-jumbos {
+    display: block;
+    width: 80%;
+    float: none;
+    position: relative;
 }
 
 

@@ -264,6 +264,20 @@ bootstrap provides the color of the icon through the use of an SVG background im
 link they provided and then simply change the RGB values and stroke size to fit your needs, after that you can just define the
 border-width and border-color as normal. 
 
+
+### CREATING THE FOOTER
+
+When creating the footer, I looked through my previous mini projects for inspiration but decided I wanted to keep things simple,
+as my design for them was so simple I didn't need anything special, just a p on the left and an almost exact copy of my social
+links on the right, but simply giving them their own independent id to allow me to downscale them. I looked at a couple of
+methods for this and decided because they were so far apart and unlikely to overlap I could just give them absolute positioning
+and affix them to the left and right respectively. This was perfect for desktop and tablet but did cause overlap on mobile, which
+I just solved with a media query that set the social links to display: none on mobile screens. This did alter from my wireframe
+design but I realised it was for the best anyway as to make them the right size relative to the navbar social links I'd have to 
+make them so small they would be effectively useless anyway, so it was better off to not have them and just keep the footer for
+the legal info that I believe is important to appear on every device.
+
+
 ## TESTING
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
