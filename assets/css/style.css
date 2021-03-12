@@ -70,6 +70,9 @@ body {
 .social-links li a i:hover {
     background-color: black;
     color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 
 #social-desktop {
@@ -123,6 +126,9 @@ footer {
 .social-links-footer li a i:hover {
     background-color: black;
     color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 
 /*------- Index.html -------*/
@@ -247,6 +253,10 @@ footer {
 }
 
 #news-page-tablet {
+    display: none;
+}
+
+#tour-page-mobile {
     display: none;
 }
 
@@ -413,7 +423,13 @@ footer {
   position: relative;
 }
 
+#tour-page-desktop {
+    display: none;
+}
 
+#tour-page-mobile {
+    display: inherit;
+}
 }
 
 /*------- Tablet Media Queries -------*/
@@ -538,6 +554,10 @@ footer {
 
 #news-page-tablet {
     display: inherit;
+}
+
+.tour-sections {
+    min-height: 1080px;
 }
 }
 
