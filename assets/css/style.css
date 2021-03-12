@@ -256,7 +256,103 @@ footer {
     display: none;
 }
 
+/*------- Tour.html -------*/
+
 #tour-page-mobile {
+    display: none;
+}
+
+.tour-sections {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    min-height: 780px;
+}
+
+.tour-container {
+    background-color: rgb(223, 223, 223);
+
+    height: 85vh;
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.tour-header {
+    margin-top: 20px;
+    style: uppercase;
+    font-family: 'russo one', sans-serif;
+}
+
+/*------- merch.html -------*/
+
+.merch-sections {
+    min-height: 450px;
+    min-width: 450px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.merch-container {
+    background-color: rgb(223, 223, 223);
+
+    height: 70vh;
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.merch-header {
+    margin-top: 20px;
+    style: uppercase;
+    font-family: 'russo one', sans-serif;
+}
+
+#merch-page-tablet {
+    display: none;
+}
+
+.product-images {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.product-images img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.merch-sections.product-images {
+    margin: 0 auto;
+}
+
+.merch-item-title {
+    margin-top: 20px;
+}
+
+.merch-item-link {
+    color: white;
+}
+
+#merch-tablet {
     display: none;
 }
 
@@ -423,6 +519,8 @@ footer {
   position: relative;
 }
 
+/*------- Tour.html on Mobile -------*/
+
 #tour-page-desktop {
     display: none;
 }
@@ -430,6 +528,47 @@ footer {
 #tour-page-mobile {
     display: inherit;
 }
+
+
+.tour-container {
+    height: 240vh;
+}
+
+
+/*------- Merch.html on Mobile -------*/
+
+.merch-container {
+    height: 190vh;
+}
+
+.merch-sections {
+    min-height: 350px;
+    min-width: 350px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#merch-page-tablet {
+    display: none;
+}
+
+.product-images {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.product-images img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.merch-sections.product-images {
+    margin: 0 auto;
+}
+
 }
 
 /*------- Tablet Media Queries -------*/
@@ -556,9 +695,63 @@ footer {
     display: inherit;
 }
 
+/*------- Tour.html On Tablet -------*/
+
 .tour-sections {
     min-height: 1080px;
 }
+
+.tour-container {
+    height: 110vh;
+}
+
+/*------- merch.html On Tablet -------*/
+
+#merch-tablet {
+    display: inherit;
+}
+
+#merch-desktop {
+    display: none;
+}
+
+.merch-container {
+    height: 50vh;
+}
+
+.merch-sections {
+    min-height: 300px;
+    min-width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#merch-page-tablet {
+    display: none;
+}
+
+.product-images {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.product-images img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.merch-sections.product-images {
+    margin: 0 auto;
+}
+
+.merch-item-link {
+    font-size: 16px;
+}
+
+
 }
 
 
