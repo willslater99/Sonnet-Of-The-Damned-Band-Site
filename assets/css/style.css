@@ -248,7 +248,7 @@ footer {
 
 .news-header {
     margin-top: 20px;
-    style: uppercase;
+    font-style: uppercase;
     font-family: 'russo one', sans-serif;
 }
 
@@ -287,7 +287,7 @@ footer {
 
 .tour-header {
     margin-top: 20px;
-    style: uppercase;
+    font-style: uppercase;
     font-family: 'russo one', sans-serif;
 }
 
@@ -321,7 +321,7 @@ footer {
 
 .merch-header {
     margin-top: 20px;
-    style: uppercase;
+    font-style: uppercase;
     font-family: 'russo one', sans-serif;
 }
 
@@ -619,9 +619,6 @@ footer {
 
 #band-info-tablet {
     display: inherit;
-}
-
-#about-the-band-small {
 }
 
 #small-band-photo {
