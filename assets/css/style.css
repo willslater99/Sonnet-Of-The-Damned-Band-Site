@@ -356,6 +356,41 @@ footer {
     display: none;
 }
 
+/*------- About.html -------*/
+
+.about-page-band-jumbo {
+    border-style: none;
+    background-color: rgba(0,0,0,.0);
+    margin: 0 auto;
+}
+
+#about-band-tablet {
+    display: none;
+}
+
+.about-header {
+    margin-top: 20px;
+    font-style: uppercase;
+    font-family: 'russo one', sans-serif;
+}
+
+.member-photos {
+    max-width: 20vw;
+}
+
+.member-photos img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h3.jumbotron-header {
+    margin-top: 15px;
+}
+
+#about-members-tablet {
+    display: none;
+}
+
 /*------- Mobile Media Queries -------*/
 
 @media only screen and (max-width: 600px) {
@@ -569,6 +604,26 @@ footer {
     margin: 0 auto;
 }
 
+/*------- About.html on Mobile -------*/
+
+#about-the-band-text {
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.band-info-column {
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+#about-page-band-photo img {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.member-photos {
+    max-width: 85vw;
+}
 }
 
 /*------- Tablet Media Queries -------*/
@@ -748,7 +803,27 @@ footer {
     font-size: 16px;
 }
 
+/*------- about.html on Tablet-------*/
 
+#about-band-desktop {
+    display: none;
+}
+
+#about-band-tablet {
+    display: inherit;
+}
+
+.member-photos {
+    max-width: 45vw;
+}
+
+#about-members-desktop {
+    display: none;
+}
+
+#about-members-tablet {
+    display: inherit;
+}
 }
 
 
