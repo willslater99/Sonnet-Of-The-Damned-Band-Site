@@ -277,25 +277,89 @@ design but I realised it was for the best anyway as to make them the right size 
 make them so small they would be effectively useless anyway, so it was better off to not have them and just keep the footer for
 the legal info that I believe is important to appear on every device.
 
+### CENTERING ELEMENTS 
+
+I had quite a few problems at first with getting my objects and elements to center within their various containers or simply on
+the page. Text I had no problem with, as the text-center class was taking care of it for the jumbotrons and most things, but 
+when it came to images, iframes and a few other things I just couldn't get it to cooperate. I looked for advice on stack overflow
+and was told that simply using margin: 0 auto; in the css for the element would do as I needed, but this never seemed to be the case.
+After some testing I realised that margin: 0 auto; was working when I applied it to a div, but not when I applied it directly to an
+img or a class within it, so I made use of this info and anything that wasn't cooperating I simply wrapped in a div entirely for this
+purpose and then used margin: 0 auto; on that div.
+
 
 ## TESTING
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### LINKS 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+To test my site once it was done, I first went through it and clicked on every single external link on every page to make sure that
+I had no issues with this and that they all worked well. There was no problem here.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Next I went ahead and re-did that test but using the inspect element and running it in a mobile setting, and then the same on tablet,
+both again worked completely.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I did notice though that on all the links provided on the merch.html page (outside the social links as that code is the same on every
+page) I had not included the target="_blank" section, and so they weren't opening in a new tab. I went through the page immediately 
+after and added those, then re-tested the links and saw they all open in a new tab as intended now, so that's no longer an issue. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### TESTING WITHOUT CSS 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I decided for my next test I would run the site without the style.css file, to see how it presents itself. Although of course it comes
+up very baron, the thought process was it should still technically work. It was from here that I realised that on plenty of img elements
+I had forgotten to include an alt, reducing the usability of the site massively for visually impaired users. I went back through my .html
+files, used ctrl+f to find every img and made sure an alt was added for every single one. I then re-tested and this helped fill the 
+css-less version of the site much better. 
+
+### TESTING VARIOUS SCREEN SIZES 
+
+I next went through my site entirely using multiple mobile and tablet based views in chrome's developer tools, as well as using firefox 
+as well to get a second browsers perspective. I was happy with the result that I got, as I had made sure to ensure each paged looked good
+on all three screen sizes before moving onto the next .html document. 
+
+The only real issue is that certain pages don't appear very well on larger tablet sizes. They are centered and even, but often the elements
+appear just a bit smaller than they need to be. The reasoning for this is that as I built my project I made sure to adapt it for tablet by
+using the Ipad resolution view in chrome developer tools, and made sure I was happy with that view along with desktop and mobile. It wasn't 
+until I was testing the project that I decided to click and see what it would look like on Ipad Pro's resolution. The answer was, not terrible,
+but just not optimum. The reason for this is that in my media queries I had adjusted things for different screens using pixels, and although 
+this looked fine on my ipad, iphone x, pixel 2 and galaxy s5 view, I'd never even considered how that would adapt to vastly different
+non-desktop screens.
+
+I decided to see how the best way to adapt this would be and went back and applied it to my about page. I've definitely learnt from doing so
+that if I was to do this project again, I would make sure to, when defining max and min width and heights, make use of % and vw/vh as much as
+possible instead of pixels, as these are far more adaptable to different screen sizes and probably would have made my entire job far easier. 
+
+I had a similar issue with some of my earlier pages margins, as alot of them I'd fixed the issues with centering I mentioned above by simply
+using pixel margins, which obviously don't always adapt well between one screen size and another. Once I was able to start using the solution
+I mentioned above I did this far less often, but again, something I will avoid as much as possible in the future.
+
+I considered going back and fixing these issues but realised that with the amount of times I had done this, it wasn't like sorting out a bug.
+To correct my previous choices and make my code less messy I'd be looking at redoing nearly half of my work so far, and just didn't feel this
+was the right choice for what is still a highly functional and in my opinion, decently designed website. 
+
+### TESTING ODD SCREENS 
+
+I wont lie, this part was more of a curiosity than anything else, but I decided to use developer tools and see what my website appeared like 
+on non-standard devices, choosing to make use of both the surface duo and galaxy fold for this. 
+
+The answer is that in 'Phone mode' for the surface duo the site appears absolutely fine, besides a few random off-center pieces. In 'tablet
+mode' however, it essentially breaks completely, as although it's supposed to be like a tablet, its pixel width resolution is 1114px, wider than
+my tablet media queries max, meaning the desktop layout is applied to it, which doesn't carry over well at all. I looked at increasing the max 
+width of my media query to include this as its currently 1050px, but that would overlap with many desktops running at 1920x1080 and force the 
+tablet view on alot of desktop users.
+
+I then looked at the galaxy fold, and achieved essentially the opposite result. In 'tablet mode' it appears nearly perfectly (again with some
+off center pieces) but in 'phone mode' parts of the site are almost completely unusable, with much of the sites text and pictures falling over
+the left and right sides and the various elements overlapping each other. The reason for this is that its pixel width as a phone is 280px, less
+than 2/3rds of the iphone X (which I've used as the primary tester throughout development simply due to its popularity).
+
+The reason for the issues again falls to when I started the project using manual pixel sizes and margins as mentioned before. 
+
+### RESULTS OF TESTING?
+
+From my testing I was able to correct a few small and medium sized issues with the site as well as learn alot of what I did that could have
+been improved to structure the site better and make it more adaptable for different screen sizes. The code is messy to start with but gets 
+better as I go, and my overall assessment is that the website I've built is fuctional with flaws, and will work well on most standard desktop,
+phone and tablet devices and begin to drop off the further we stray from the norm.
 
 
 ## DEPLOYMENT
@@ -311,12 +375,23 @@ simple to use.
 
 ## CREDITS
 
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+It's very clear to see from looking at my code that a humongous amount of my site is based on two key elements, bootstraps
+grid system and its jumbotrons. Although jumbotrons probably aren't intended to be used this way and are supposed to be more
+of a big highlight, I found that as my site was so massively based off of rectangles and squares in equal proportions, the
+jumbotrons combined with the grid system got what I needed in a far more adaptable way much quicker. The about section on 
+the index.html page for example makes use of two jumbotrons that aren't even visible due to my manipulation of them in CSS, 
+which might make one question why I used it. The simple answer is though that by using jumbotrons for this task, I was able
+to get the site to center in the 2/3rds and 1/3rds way that I wanted far quicker than doing it manually. 
+
+A huge credit for the work goes to the Bootstrap documentation, which I consulted often for making use of their grid system
+and jumbotrons.
+
+https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
+I also made use of the code institute tutor support a few times throughout the project, but made sure to do this when I had
+exhausted all options (slack, stackoverflow, google, etc) and felt it was time inefficient to wait any longer. I never
+directly copied any code from anyone, but definitely wouldn't have achieved the result I did as quickly as I did without
+building on what the tutors were able to tell me. 
 
 ## ACKNOWLEDGEMENTS 
 
@@ -349,3 +424,18 @@ still feel its distracting unnecessarily and just different for the sake of bein
  costs would be a big deal for a small band, so applied a similar idea while all keeping it retained to its own page. 
 
 
+## FINAL THOUGHTS
+
+From my testing I've learned that although I can make a functional website, I definitely have alot to learn, and based
+off of the amount my code has improved from the start of this project to now, I'm confident my projects will only
+improve as I continue to work on them. It's obvious to see from my first html document (index.html) to my last one 
+(about.html) in this project how much I've improved, and in the future I know I'll be able to apply a huge amount of this 
+information in a functional way on many of my projects.
+
+I've replicated my wireframes very well considering I don't consider myself graphically talented, and the only altercations 
+I've made are to a couple of the tablet layouts, where I realised in practice that some things simply had to be pushed onto
+the next row to make a functional site as it would have to be shrunk too far to be readable (such as the wireframes
+ sonnet-news-wireframe.png and sonnet-news-tablet-wireframe.png). 
+
+ Overall I feel I've done a good job but if I was to do it again could optimise some of my work to be more structured and
+ less messy (like using multiple classes in my css for something that could have been done with one). 
