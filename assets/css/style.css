@@ -663,7 +663,8 @@ footer {
 /*------- Index.html on Tablet -------*/
 
 .initial-container {
-    height: 130vh;
+    max-height: 130vh;
+    min-height: 125vh;
 }
 .news-and-new-release {
     min-height: 40vh;
