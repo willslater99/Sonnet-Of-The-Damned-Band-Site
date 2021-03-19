@@ -19,7 +19,7 @@ reach out to me through my github. Thanks!
 #
 <a></a>
 ## Links to Relevant Articles
-* [User Experience/UX](#ux)
+* [User Experience/UX](#user-experience)
     * [User Goals](#user-goals)
     * [User Stories](#user-stories)
     * [Site Owners Goals](#site-owners-goals)
@@ -44,7 +44,7 @@ reach out to me through my github. Thanks!
 ---
 
 <a name="ux"></a>
-## **User Experience/UX**
+## **User Experience**
 <a></a>
 ### **User Goals**
 
