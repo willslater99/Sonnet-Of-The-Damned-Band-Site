@@ -142,10 +142,13 @@ It's not a very complicated design but it has great contrast, is easily readable
 
 <a></a>
 #### Fonts
-In order to find appropriate fonts for my website, I have visited [Google Fonts](https://fonts.google.com/ "Google Fonts") to explore the various options.
-For the overall content I have decided to use the [Fanwood Text](https://fonts.google.com/specimen/Fanwood+Text?query=fanw "Google fonts: Fanwood Text") font. In my opinion this font is easy to read and visually appealing.
-For my headings I decided to go with a different font in order to make them stand out from the main content. The font I chose for this, is the [Eagle Lake](https://fonts.google.com/specimen/Eagle+Lake?query=eagle "Google Fonts: Eagle Lake") font.
-This is a calligraphic font that highlights to heading and gives it a more personal feeling. 
+For my websites fonts, I made use of [Google Fonts](https://fonts.google.com/ "Google Fonts") to find what was available to me.
+I didn't need anything for the heading as was making use of the bands logo, so wanted to find something to stand out in other
+places and eventually settled on using Russo One for the navbar, as it was adventurous, and would likely get annoying if used
+for whole paragraphs, but worked perfectly for 5 large single word links and a sub-header on each page. 
+
+As a backup for Russo One I used sans-serif as its extremely readable and very reliable, and decided to make use of that for 
+the rest of the text on the website for the exact same reasons. 
 
 <a></a>
 #### Icons
