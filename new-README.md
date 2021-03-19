@@ -2,18 +2,20 @@
 
 ![Multi-Device Mockup Picture](assets/images/multi-device-mockup.png)
 
-##Project Goal
-!Time to change the music you listen to, time for Sonnet of the Damned. A melodic hardcore band from the south of england,
+## Project Goal
+Time to change the music you listen to, time for Sonnet of the Damned. A melodic hardcore band from the south of england,
 Sonnet are a fantastic band who are growing by the day. This website will give you all the info you could want or need as
-a current or soon-to-be fan of the band in an easy to find and well defined way. The website is made individual by 
-matching the bands colour schemes, providing links to their content and merchandise and giving information about their
-news and the band members.
+a current or soon-to-be fan of the band in an easy and well defined way. The website is made individual by matching the 
+bands colour schemes, providing links to their content and merchandise and giving information about their news and the band 
+members.
 
 People don't like to work to find new music so it was very important that the information was clearly divided and easy
 to find about any specific subject.
 
 Thank you for coming to look at my project and if you want to know anything about the development process feel free to
 reach out to me through my github. Thanks!
+
+---
 
 <a></a>
 ## Links to Relevant Articles
@@ -40,31 +42,56 @@ reach out to me through my github. Thanks!
 * [Deployment](#deployment)
 * [Credits](#credits)
 
-Thank you for visiting my project! If you have any feedback or questions, head over to my GitHub contact details and feel free to reach out to me.
 ### Milestone project 1: A static webpage for the melodic hardcore band Sonnet Of The Damned. 
 
 The goal of this is to create a usable website for the britisih melodic hardcore band Sonnet of the Damned.
 The project is intended to provide a website that is helpful for both fans of the band in acquiring merchandise and
 information and providing potential fans of the band the ability to grow their love for them.
 
+---
 
-## User Experience/UX
+## **User Experience/UX**
 
 <a name="ux"></a>
-## **UX**
+## UX
 <a></a>
 ### **User Goals**
 
-* A website filled with valuable content
-* Website should be easy to use on desktop, tablet & mobile
-* Appealing visual elements
-* Personal info about property & owners
-* Website with creative call-to-actions
-* Offer social proof like testimonials & guest reviews
-* Contact details should be easy to find
-* Form to contact owners directly from site
+The user goals for the site are...
+* A website that works well on desktop, mobile and tablet.
+* A website that looks good in all places.
+* A website that fits with the existing band identity so a fan would want to use it.
+* A website that allows easy access to the bands current social medias.
+* A website that can easily direct towards merchandise for fans.
+* A website that allows a user to get straight to the information they want to see without wading through information they don't want.
+* A website that gives information about current tour dates.
+* A website that gives up to date and relevant news about the band.
+* A website that lets the user find out more about the band and its members easily.
 
-[Back to Top](#table-of-contents)
+[Back to Table of Contents](#table-of-contents)
+
+<a></a>
+### **User Stories**
+
+As a user, I want...
+* As a user, I want to be able to easily find the contact details from the property.
+* As a user, I want to find information about the policies and prices.
+* As a user, I want to see various images about the property and neighbourhood.
+* As a user, I want to be able to reach out to the property via the website.
+* As a user, I want to see what other people think about the property via testimonials and guest reviews.
+* As a user, I want to find easily where the property is located and if I can easily park my car.
+* As a user, it is important to me that the website is easy and simple to use. 
+* As a user, I want the websit to work well on tablets. 
+* As a user, I want the website to be intuitive as they will increase the chance of my booking there
+* As a user, I want to find the contact details quickly, otherwise I will be tempted to book somewhere else. 
+* As a user, I want that the website of a potential b&b to speak to my emotions right away.
+* As a user, I need to have the feeling that I don't want to miss out on the amazing experience. 
+* As a user, I want the website to be easy to navigate. 
+* As a user, I also like to know a bit of information about the owners as a b&b experience is much more personal than going to a hotel. 
+* As a user, I want clear information about when I can do the check-in, check-out and the costs for breakfast and parking. 
+* As a user, I expect that there are links to social media that open in separate tabs.
+
+[Back to Table of Contents](#table-of-contents)
 
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
