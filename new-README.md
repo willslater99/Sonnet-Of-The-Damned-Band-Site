@@ -16,16 +16,15 @@ Thank you for coming to look at my project and if you want to know anything abou
 reach out to me through my github. Thanks!
 
 ---
-
+#
 <a></a>
 ## Links to Relevant Articles
 * [User Experience/UX](#ux)
     * [User Goals](#user-goals)
     * [User Stories](#user-stories)
     * [Site Owners Goals](#site-owners-goals)
-    * [User Requirements and Expectations](#user-requirements-and-expectations)
-        * [Requirements](#requirements)
-        * [Expectations](#expectations)
+    * [User Requirements](#user-requirements)
+    * [User Expectations](#expectations)
     * [Design Choices](#design-choices)
         * [Fonts](#fonts)
         * [Icons](#icons)
@@ -66,7 +65,7 @@ The user goals for the site are...
 * A website that gives up to date and relevant news about the band.
 * A website that lets the user find out more about the band and its members easily.
 
-[Back to Table of Contents](#table-of-contents)
+[Back to Table of Contents](#links-to-relevant-articles)
 
 <a></a>
 ### **User Stories**
@@ -87,7 +86,7 @@ As a user, I want...
 * To know that any outside link I click (i.e. social media) will open in a different tab so it doesn't interrupt my browsing experience.
 * It to be obvious that I'm on the right website and in the right location.
 
-[Back to Table of Contents](#table-of-contents)
+[Back to Table of Contents](#links-to-relevant-articles)
 
 <a></a>
 ### **Site Owners Goals**
@@ -99,7 +98,27 @@ As a site owner, I want a site that...
 * Lets us easily say when we're playing shows to increase ticket sales.
 * Talks about who we are to make people become more interested in us and attract new fans.
 
-[Back to Table of Contents](#table-of-contents)
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+### **User Requirements**
+
+As a user, I require...
+* A site that is easy to navigate through the use of the navbar.
+* Contains relevant content to the band.
+* Looks good and makes sense relevant to the bands aesthetics.
+* Nothing to provide any error messages and the band info to be clear. 
+* A site that works on mobile and tablet as well as desktop.
+
+<a></a>
+#### **User Expectations**
+
+As a user, I expect...
+* All information on bands show to tell me when and where they're performing.
+* Any external link (like social media or merchandise) I click to open in a new tab.
+* Has an easy way to purchase merchandise.
+* to see what the merchandise looks like before I click on it.
+
 
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
