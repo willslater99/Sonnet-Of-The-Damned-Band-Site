@@ -74,22 +74,20 @@ The user goals for the site are...
 ### **User Stories**
 
 As a user, I want...
-* As a user, I want to be able to easily find the contact details from the property.
-* As a user, I want to find information about the policies and prices.
-* As a user, I want to see various images about the property and neighbourhood.
-* As a user, I want to be able to reach out to the property via the website.
-* As a user, I want to see what other people think about the property via testimonials and guest reviews.
-* As a user, I want to find easily where the property is located and if I can easily park my car.
-* As a user, it is important to me that the website is easy and simple to use. 
-* As a user, I want the websit to work well on tablets. 
-* As a user, I want the website to be intuitive as they will increase the chance of my booking there
-* As a user, I want to find the contact details quickly, otherwise I will be tempted to book somewhere else. 
-* As a user, I want that the website of a potential b&b to speak to my emotions right away.
-* As a user, I need to have the feeling that I don't want to miss out on the amazing experience. 
-* As a user, I want the website to be easy to navigate. 
-* As a user, I also like to know a bit of information about the owners as a b&b experience is much more personal than going to a hotel. 
-* As a user, I want clear information about when I can do the check-in, check-out and the costs for breakfast and parking. 
-* As a user, I expect that there are links to social media that open in separate tabs.
+* To be easily able to go to the bands social medias.
+* To see images of the band and its members.
+* To be able to find out whats happening with the band.
+* To see and hear their music on the website.
+* To be able to buy the bands merch if I like their music.
+* To be able to find out about the history of the band.
+* To find out when the band are playing shows near me.
+* To be able to use the website on my phone.
+* To have different sections of information clearly divided so I can find things.
+* To know whether the band make music I like so I can make my decision quickly whether to stay or go.
+* To be able to get right to the information I want without wading through info I don't care about.
+* To be convinced that the band are exciting and good.
+* To know that any outside link I click (i.e. social media) will open in a different tab so it doesn't interrupt my browsing experience.
+* It to be obvious that I'm on the right website and in the right location.
 
 [Back to Table of Contents](#table-of-contents)
 
