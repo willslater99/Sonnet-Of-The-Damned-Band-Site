@@ -476,7 +476,7 @@ footer {
 }
 
 .initial-container {
-    height: 140vh
+    height: 110vh
 }
 
 .jumbotron.about-the-band-jumbo {
@@ -663,8 +663,8 @@ footer {
 /*------- Index.html on Tablet -------*/
 
 .initial-container {
-    max-height: 130vh;
-    min-height: 125vh;
+    max-height: 150vh;
+    min-height: 130vh;
 }
 .news-and-new-release {
     min-height: 40vh;
