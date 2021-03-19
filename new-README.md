@@ -142,21 +142,22 @@ It's not a very complicated design but it has great contrast, is easily readable
 
 <a></a>
 #### Fonts
-For my websites fonts, I made use of [Google Fonts](https://fonts.google.com/ "Google Fonts") to find what was available to me.
-I didn't need anything for the heading as was making use of the bands logo, so wanted to find something to stand out in other
-places and eventually settled on using Russo One for the navbar, as it was adventurous, and would likely get annoying if used
-for whole paragraphs, but worked perfectly for 5 large single word links and a sub-header on each page. 
+For my websites fonts, I made use of [Google Fonts](https://fonts.google.com/) to find what was available to me. I didn't need 
+anything for the heading as was making use of the bands logo, so wanted to find something to stand out in other places and 
+eventually settled on using Russo One for the navbar, as it was adventurous, and would likely get annoying if used for whole
+paragraphs, but worked perfectly for 5 large single word links and a sub-header on each page. 
 
 As a backup for Russo One I used sans-serif as its extremely readable and very reliable, and decided to make use of that for 
 the rest of the text on the website for the exact same reasons. 
 
 <a></a>
 #### Icons
-I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). The icons that I chose are self explanatory and are in line with the overall feeling of the website.
-I will make sure that the icons are styled according to the website. I will use some icons to make the website more visually appealing but not to overtake the content.
-The navigation menu will transform into a hamburger icon to make it more simple to use on mobile.
-
- 
+To compliment the fonts, I decided to make use of icons for my social medias links, and realised very quickly that 
+[Font Awesome](https://fontawesome.com/) would be the best way to do it. With three simple searches I was able to find the
+right icons for my social medias, and were easily styled to fit in with the header bar around it and to match the band logo
+next to (or above if on mobile) it. For the navbar icon I used the bootstrap default one, but made modifications to it as
+bootstrap only provides an off-white and off-black one and I wanted a pure white one with a clear border to make it match
+the social icons and band logo. 
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
