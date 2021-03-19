@@ -24,12 +24,12 @@ reach out to me through my github. Thanks!
     * [User Stories](#user-stories)
     * [Site Owners Goals](#site-owners-goals)
     * [User Requirements](#user-requirements)
-    * [User Expectations](#expectations)
-    * [Design Choices](#design-choices)
+    * [User Expectations](#user-expectations)
+    * [Design](#design)
+        * [Structure And Layout](#structure-and-layout)
+        * [Colors](#colors)
         * [Fonts](#fonts)
         * [Icons](#icons)
-        * [Colors](#colors)
-        * [Structure](#structure)
 * [Wireframes](#wireframes)
 * [Features](#features)
     * [Existing Features](#existing-features)
@@ -40,12 +40,6 @@ reach out to me through my github. Thanks!
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
-
-### Milestone project 1: A static webpage for the melodic hardcore band Sonnet Of The Damned. 
-
-The goal of this is to create a usable website for the britisih melodic hardcore band Sonnet of the Damned.
-The project is intended to provide a website that is helpful for both fans of the band in acquiring merchandise and
-information and providing potential fans of the band the ability to grow their love for them.
 
 ---
 
@@ -110,6 +104,8 @@ As a user, I require...
 * Nothing to provide any error messages and the band info to be clear. 
 * A site that works on mobile and tablet as well as desktop.
 
+[Back to Table of Contents](#links-to-relevant-articles)
+
 <a></a>
 #### **User Expectations**
 
@@ -119,7 +115,45 @@ As a user, I expect...
 * Has an easy way to purchase merchandise.
 * to see what the merchandise looks like before I click on it.
 
+[Back to Table of Contents](#links-to-relevant-articles)
 
+<a></a>
+### **Design**
+
+<a></a>
+#### Structure And Layout
+I've decided to use [Bootstrap](https://getbootstrap.com/) for the overall structure and layout
+I have chosen to use  to create an overall structure for my website. 
+Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. 
+As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
+
+<a></a>
+#### Colors
+As the band already had a logo and had made use of primarily black and white on their social medias, I decided it made
+sense to stay in that general area for the rest of the website design as well. I looked at [ColorSpace](https://mycolor.space/)
+and [Adobe Color Wheel](https://color.adobe.com/create/color-wheel) but just couldn't find anything I liked more than my 
+original black and off-white design. 
+
+* RGB(0,0,0): Pure and complete black. This opposes their logo (which is RGB(255,255,255)) perfectly so I decided that simple was best and stuck with it.
+* RGB(223,223,223): An off-white greyish colour. I decided this was better than going with pure white like I originally planned because it makes the site less harsh
+on the eyes.
+
+It's not a very complicated design but it has great contrast, is easily readable and makes it easy to make the non-white elements of the site stand out.
+
+<a></a>
+#### Fonts
+In order to find appropriate fonts for my website, I have visited [Google Fonts](https://fonts.google.com/ "Google Fonts") to explore the various options.
+For the overall content I have decided to use the [Fanwood Text](https://fonts.google.com/specimen/Fanwood+Text?query=fanw "Google fonts: Fanwood Text") font. In my opinion this font is easy to read and visually appealing.
+For my headings I decided to go with a different font in order to make them stand out from the main content. The font I chose for this, is the [Eagle Lake](https://fonts.google.com/specimen/Eagle+Lake?query=eagle "Google Fonts: Eagle Lake") font.
+This is a calligraphic font that highlights to heading and gives it a more personal feeling. 
+
+<a></a>
+#### Icons
+I have decided to implement icons, using the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). The icons that I chose are self explanatory and are in line with the overall feeling of the website.
+I will make sure that the icons are styled according to the website. I will use some icons to make the website more visually appealing but not to overtake the content.
+The navigation menu will transform into a hamburger icon to make it more simple to use on mobile.
+
+ 
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
