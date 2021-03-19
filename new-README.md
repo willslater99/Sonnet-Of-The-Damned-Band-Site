@@ -122,10 +122,10 @@ As a user, I expect...
 
 <a></a>
 #### Structure And Layout
-I've decided to use [Bootstrap](https://getbootstrap.com/) for the overall structure and layout
-I have chosen to use  to create an overall structure for my website. 
-Bootstrap provides various elements of CSS and Javascript which is very helpful to keep a good structure on your page. 
-As Bootstrap is designed for mobile first, I will be certain that my website functions well on mobile.
+I've decided to use [Bootstrap](https://getbootstrap.com/) for the overall structure and layout of my website as its
+pre-included CSS and javascript elements make it much easier to keep a similar design from one page to another, has
+a great mobile first layout that will adapt very well as well as my belief that I can make use of the jumbotron function 
+to easily achieve the rectangle and squares based layout I designed in my wireframes.
 
 <a></a>
 #### Colors
