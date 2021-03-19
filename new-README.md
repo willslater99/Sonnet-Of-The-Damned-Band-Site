@@ -127,6 +127,8 @@ pre-included CSS and javascript elements make it much easier to keep a similar d
 a great mobile first layout that will adapt very well as well as my belief that I can make use of the jumbotron function 
 to easily achieve the rectangle and squares based layout I designed in my wireframes.
 
+[Back to Table of Contents](#links-to-relevant-articles)
+
 <a></a>
 #### Colors
 As the band already had a logo and had made use of primarily black and white on their social medias, I decided it made
@@ -140,6 +142,8 @@ on the eyes.
 
 It's not a very complicated design but it has great contrast, is easily readable and makes it easy to make the non-white elements of the site stand out.
 
+[Back to Table of Contents](#links-to-relevant-articles)
+
 <a></a>
 #### Fonts
 For my websites fonts, I made use of [Google Fonts](https://fonts.google.com/) to find what was available to me. I didn't need 
@@ -150,6 +154,8 @@ paragraphs, but worked perfectly for 5 large single word links and a sub-header 
 As a backup for Russo One I used sans-serif as its extremely readable and very reliable, and decided to make use of that for 
 the rest of the text on the website for the exact same reasons. 
 
+[Back to Table of Contents](#links-to-relevant-articles)
+
 <a></a>
 #### Icons
 To compliment the fonts, I decided to make use of icons for my social medias links, and realised very quickly that 
@@ -158,6 +164,8 @@ right icons for my social medias, and were easily styled to fit in with the head
 next to (or above if on mobile) it. For the navbar icon I used the bootstrap default one, but made modifications to it as
 bootstrap only provides an off-white and off-black one and I wanted a pure white one with a clear border to make it match
 the social icons and band logo. 
+
+[Back to Table of Contents](#links-to-relevant-articles)
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
