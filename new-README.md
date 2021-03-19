@@ -50,10 +50,8 @@ information and providing potential fans of the band the ability to grow their l
 
 ---
 
-## **User Experience/UX**
-
 <a name="ux"></a>
-## UX
+## **User Experience/UX**
 <a></a>
 ### **User Goals**
 
@@ -88,6 +86,18 @@ As a user, I want...
 * To be convinced that the band are exciting and good.
 * To know that any outside link I click (i.e. social media) will open in a different tab so it doesn't interrupt my browsing experience.
 * It to be obvious that I'm on the right website and in the right location.
+
+[Back to Table of Contents](#table-of-contents)
+
+<a></a>
+### **Site Owners Goals**
+
+As a site owner, I want a site that...
+* Makes it easy to sell merchandise and increases merch sales.
+* Interacts well with our social medias and increases listener numbers.
+* Makes us look better than other competing bands.
+* Lets us easily say when we're playing shows to increase ticket sales.
+* Talks about who we are to make people become more interested in us and attract new fans.
 
 [Back to Table of Contents](#table-of-contents)
 
