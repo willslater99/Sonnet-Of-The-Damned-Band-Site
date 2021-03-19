@@ -432,7 +432,7 @@ improve as I continue to work on them. It's obvious to see from my first html do
 (about.html) in this project how much I've improved, and in the future I know I'll be able to apply a huge amount of this 
 information in a functional way on many of my projects.
 
-I've replicated my wireframes very well considering I don't consider myself graphically talented, and the only altercations 
+I've replicated my wireframes very well considering I don't consider myself graphically talented, and the only alterations 
 I've made are to a couple of the tablet layouts, where I realised in practice that some things simply had to be pushed onto
 the next row to make a functional site as it would have to be shrunk too far to be readable (such as the wireframes
  sonnet-news-wireframe.png and sonnet-news-tablet-wireframe.png). 

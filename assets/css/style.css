@@ -167,8 +167,8 @@ footer {
 }
 
 .news-and-new-release {
-    min-height: 400px;
-    min-width: 700px;
+    min-height: 50vh;
+    min-width: 35vw;
     margin-right: 20px;
     margin-left: 20px;
     margin-top: 20px;
@@ -199,6 +199,8 @@ footer {
     margin: 50px 0;
     color: black;
 }
+
+#sma
 
 .jumbotron-header.about-the-band-home-header {
     color: black;
@@ -660,9 +662,12 @@ footer {
 
 /*------- Index.html on Tablet -------*/
 
+.initial-container {
+    height: 130vh;
+}
 .news-and-new-release {
-    min-height: 450px;
-    min-width: 350px;
+    min-height: 40vh;
+    min-width: 90vw;
     font-size: 15px;
     margin-left: 5px;
     margin-right: 5px;
