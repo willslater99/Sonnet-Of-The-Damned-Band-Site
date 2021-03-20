@@ -28,7 +28,7 @@ reach out to me through my github. Thanks!
     * [Design](#design)
         * [Structure And Layout](#structure-and-layout)
         * [Colors](#colors)
-        * [Fonts](#fonts)
+        * [Font Choices](#font-choices)
         * [Icons](#icons)
 * [Wireframes](#wireframes)
 * [Features](#features)
@@ -145,7 +145,7 @@ It's not a very complicated design but it has great contrast, is easily readable
 [Back to Table of Contents](#links-to-relevant-articles)
 
 <a></a>
-#### Fonts
+#### Font Choices
 For my websites fonts, I made use of [Google Fonts](https://fonts.google.com/) to find what was available to me. I didn't need 
 anything for the heading as was making use of the bands logo, so wanted to find something to stand out in other places and 
 eventually settled on using Russo One for the navbar, as it was adventurous, and would likely get annoying if used for whole
@@ -166,6 +166,64 @@ bootstrap only provides an off-white and off-black one and I wanted a pure white
 the social icons and band logo. 
 
 [Back to Table of Contents](#links-to-relevant-articles)
+
+--- 
+
+<a></a>
+## **Wireframes**
+I made use of a website called [MockPlus](https://app.mockplus.com) to create the wireframes for my website. I realised
+later that there were more efficient and easier tools but stuck with it as I was already half way through and it would
+have been more work to switch to something else. 
+I made my wireframe for the homepage's desktop version first, then did the same for the other 4 pages of the site, And
+then after that made the phone and tablet versions for each. This let me focus on design in the initial stage and then
+adapatation afterwards. The website was made to be quick to find what you need through the navbar and each page to be
+short and sweet, with the essential information and little more. 
+
+All 15 wireframes are viewable below:
+
+### **Home - index.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-mobile-wireframe.png)
+
+### **News - news.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-mobile-wireframe.png)
+
+### **Tour - tour.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-mobile-wireframe.png)
+
+### **Merch - merch.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-mobile-wireframe.png)
+
+### **About - about.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-mobile-wireframe.png)
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+--- 
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
