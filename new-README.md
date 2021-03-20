@@ -33,7 +33,7 @@ reach out to me through my github. Thanks!
 * [Wireframes](#wireframes)
 * [Features](#features)
     * [Existing Features](#existing-features)
-    * [Features to be implemented](#features-to-be-implemented)
+    * [Potential Future Features](#potential-future-features)
 * [Technologies used](#technologies-used)
     * [Languages](#languages)
     * [Tools and Libraries](#tools-and-libraries)
@@ -224,7 +224,104 @@ All 15 wireframes are viewable below:
 [Back to Table of Contents](#links-to-relevant-articles)
 
 --- 
+<a></a>
+## **Features**
+<a></a>
+### **Existing Features**
 
+#### Navigation
+
+For navigation I decided to go with a dropdown navbar from a hamburger icon that I used Bootstrap to implement,
+choosing to have this appear no matter the platform viewed on instead of just on mobile as some might have, as I 
+felt it was better to save space and clean up the visual appearance of the desktop version of the site. I stuck with
+website standards on this and affixed the icon to the header bar on the top right, as it appears on many or even 
+most websites.
+
+#### Social Medias 
+
+To better integrate with the pre-existing social medias the client has, I decided to use three matching Icons through
+[Font Awesome](https://fontawesome.com/) affixed to the top left of the header bar on desktop and tablet to make it
+easy for users to find the three main social medias of the client. For the mobile view I changed this a bit to give
+a more appealing look, making use of a media query to hide the original icons and place a replica set of icons below
+the band logo, giving a better mobile website flow overall.
+
+#### Band Logo Header 
+
+For the website header I choose not to use fonts and to just go directly with the clients pre-existing logo, which
+I made into a clickable in-site link that returns to the site homepage no matter the platform, as this is very
+standard and has almost come to be expected from modern websites. 
+
+#### Hero Image
+
+I implemented a hero image of the band performing and placed it below the header of the site, then covering it with
+a partially transparent grey cover, to give a darker effect to the image overall and make it blend in better with the
+websites darker tones as it was originally quite a bright image. I set its width to cover the entire website and its 
+height to 70vh, allowing some of the next section below it to show so that someone has the opportunity to see whats
+next and potentially get them interested. 
+
+#### News/New Releases Jumbotrons
+
+I made use of Bootstrap's jumbotron feature heavily throughout the site, and it started with two equally spaced 
+jumbotrons next to each other. One of these is entitled news and shows a piece of news about the band of the clients
+choice, in this case including an embedded youtube video. The other is New Release and is supposed to show the newest
+thing out by the client, in this case a cover of theirs, shown through an embedded spotify song. 
+
+#### News Columns
+
+Again using the jumbotron feature, I have created columns that display each a different article of news about the band.
+On desktop these appear as three equally spaced long columns next to each other, and on tablet and mobile instead appear
+in a stacking fashion, one on top of the other. This differs from my original wireframe for tablet as my original plan 
+was just to have the tablet version appear like a smaller version of the desktop, but I realised that it just would have
+been too small to be functional and adapted it. 
+
+#### Tour Dates
+
+The website provides tour dates for the band, stating the city, venue and date they are performing. On desktop and tablet
+this appears as two large boxed columns next to each other (again using jumbotrons) and on mobile instead appears as one
+longer scrolling boxed column. This provides a readable view on all platforms and makes good use of the space without
+being hard to look through or wasting any space.
+
+#### Merchandise
+
+Through the website, you can also see the bands merchandise and use a link to go to the relevant place to buy it. On 
+desktop this appears as three boxes next to each other on each row and is in two rows (although it could be as many as
+the client wanted, I just kept it simple to start), on tablet it displays as two boxes next to each other in three rows
+and on mobile appears as each box taking up the majority of the screen width and appearing one after another in a 
+scrolling fashion. This is well designed as it can be as short or long and include as many items as the client likes.
+
+#### About The Band
+
+On the about the band section, I've used a large jumbotron split into three columns (the first two being text and the
+last being a picture of the band) as this allows the website to simply shift a third of the site onto the next row to
+adapt to smaller screens without much work. On desktop they appear all next to each other, on tablet they appear as two
+columns of text and a picture below it and on mobile they just look like two paragraphs and then a picture.
+
+#### About the Band members
+
+For the about the band members section, I've again used jumbotrons to have a jumbotron for each band member, each One
+containing a picture and a paragraph of information. On desktop this appears as 4 equally sized and spaced columns next
+to each other for the 4 band members, on tablet this appears in rows of two by two and on mobile it appears one below
+another in a scrolling fashion, making it perfectly adapatable and easy to use. 
+
+#### Footer
+
+In the footer, I included a small bit of legal info stating it was developed by Will Slater and the year that was done 
+so and affixed it to the center left. The most useful feature of the footer though is that it includes smaller versions
+of the three social media icons found in the header, so that someone can click to these links without having to scroll
+back up to the top of the page. These are affixed to the right hand corner of the footer and do and look the same as the 
+top icons, but are just smaller and added purely for user convenience. 
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+### **Potential Future Features**
+
+* Interactive map for location with a link to google maps
+* Direct booking module to increase direct bookings
+* Whenever the form is submitted correctly, the information should be send to the email account of the property.
+* Chat bot that links with the whatsapp of the property
+* Links to external partners / companies like restaurants, activities in the neighbourhood, hike trails etc.
+* Include information on how their data will be used (GDPR-Law)
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
 1. The first purpose is to help fans of the band with acquiring information on the band that helps the band grow, such as
