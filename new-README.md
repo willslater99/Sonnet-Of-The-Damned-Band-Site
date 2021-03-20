@@ -316,12 +316,58 @@ top icons, but are just smaller and added purely for user convenience.
 <a></a>
 ### **Potential Future Features**
 
-* Interactive map for location with a link to google maps
-* Direct booking module to increase direct bookings
-* Whenever the form is submitted correctly, the information should be send to the email account of the property.
-* Chat bot that links with the whatsapp of the property
-* Links to external partners / companies like restaurants, activities in the neighbourhood, hike trails etc.
-* Include information on how their data will be used (GDPR-Law)
+#### Payment Systems
+
+In the future I'd like to integrate a payment system. It could have huge potential uses for the merchandise section as 
+being able to sell merchandise, albums and show tickets directly from the website could do massive for sales numbers and
+overall taking for the client. 
+
+#### Contact form
+
+A contact form could be potentially integrated so that events managers could contact them about booking them for shows and
+fans could contact them with questions.
+
+#### Sell tickets
+
+A way to sell tickets to the events listed on the tour section could be great for upping attendance numbers. I didn't look
+at this now as the band still don't have presale on alot of their shows, but it could be great as they grow.
+
+#### Google Maps Integration
+
+Being able to click on a specific venue name listed on the tour section and see through either an embedded popup or link 
+directly to the google maps site would be great, allowing the user to see exactly where the venue is to make attendance 
+easier. 
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+---
+
+<a></a>
+## **Technologies Used In Development**
+<a></a>
+### **Languages**
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+<a></a>
+
+### **Libraries & Frameworks**
+
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+### **Tools**
+* [Git](https://git-scm.com/)
+* [GitPod](https://www.gitpod.io/)
+* [Balsamic](https://balsamiq.com/wireframes/)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [techsini](http://techsini.com/)
+* [Tiny PNG](https://tinypng.com/)
+
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
 1. The first purpose is to help fans of the band with acquiring information on the band that helps the band grow, such as
