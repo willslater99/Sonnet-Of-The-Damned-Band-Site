@@ -455,8 +455,83 @@ result that I've achieved.
 
 [Back to Table of Contents](#links-to-relevant-articles)
 
-
 ---
+
+## **Bug Fixing**
+
+#### Homepage About Text
+
+* **Bug**    
+The text wasn't centering no matter what I did, and it looked very bad as it was sticking to the left-hand side of the screen.
+
+* **Fix**        
+I realised that everything else was wrapped in a div but that this wasn't, so put the paragraph inside of its own div. This 
+worked and where-ever I placed the div the text would center within it when asked, so I just centered the text within the div
+then centered the div within its parent element.
+
+* **Verdict**    
+Bug was fixed and it now appears as intended. 
+
+#### Dropdown Navbar
+
+* **Bug**    
+The navbar hamburger icon was appearing, but not doing anything on merch.html but no other page. 
+
+* **Fix**    
+Tried alot of fixes but couldn't figure out what was wrong. I then while looking through my other pages where the navbar 
+was working for inspiration noticed that the button elements data-target was pointing to navbarmenu, the correct ID for 
+what I was aiming for, but the rest of the pages were specifically stating #navbarmenu. I added the # symbol and it began
+working immediately. 
+
+* **Verdict**    
+Bug was fixed and the navbar now works in all places. 
+
+#### Jumbotrons
+
+* **Bug**    
+On some pages, jumbotrons were going over the side of the screen on mobile and overlapping instead of appearing one
+below another.
+
+* **Fix**
+I took alot of time trying to solve this and couldn't figure out why I was having problems as Bootstrap is made to 
+automatically push elements that don't fit down onto the next row below it. I tried playing with margins, centering,
+the number of columns assigned to it in Bootstrap's pre-included classes, but with no result. I then attempted to
+change the size of the jumbotrons to make them smaller and see if this helped by switching 'col-md-6' to 'col-sm-6', 
+and when I did so, the items were so small that they weren't practical. I then decided to see what would happen if
+I increased their designated size and used 'col-xl-6' and this immediately fixed the problem, making them no larger 
+than they were as 'col-md-6' but stacking how they should on smaller devices. My best theory as to why this happened
+is that Bootstrap thought because the elements had classes stating them as medium, it could fit them next to each 
+other even on the smaller screensize, but that once I changed this to state they were extra large, it knew that it
+had no chance of fitting it and pushed the second item down to the row below, although I don't understand the tech
+enough so this is a guess at best. 
+
+* **Result**   
+Bug was fixed and the jumbotrons all resize as intended now. 
+
+#### Icons
+
+* **Bug**    
+The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
+
+* **Fix**    
+Reduced the font-size and padding which resolved the issue immediately.
+
+* **Verdict**    
+Icons now show nicely next to each other on all devices and browsers. 
+
+#### Navigation menu on smaller screensizes 
+
+* **Bug**    
+When the screen gets smaller, the fontsize of the navigation bar is too small and the collapse button goes off the screen. 
+
+* **Fix**        
+Removed the display: block and updated the width to 100% instead of 100vw like the assessor suggested. 
+Updated the font-size as well in order to be more easy to read. 
+
+* **Verdict**    
+Bug was resolved and navigation bar now works as planned and is more userfriendly. 
+
+[Back to Top](#table-of-contents)
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
