@@ -34,7 +34,7 @@ reach out to me through my github. Thanks!
 * [Features](#features)
     * [Existing Features](#existing-features)
     * [Potential Future Features](#potential-future-features)
-* [Technologies used](#technologies-used)
+* [Technologies Used in Development](#technologies-used-in-development)
     * [Languages](#languages)
     * [Tools and Libraries](#tools-and-libraries)
 * [Testing](#testing)
@@ -347,9 +347,10 @@ easier.
 <a></a>
 ### **Languages**
 
-* [HTML](https://en.wikipedia.org/wiki/HTML)
-* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+* [HTML](https://en.wikipedia.org/wiki/HTML): Hypertext Markup Language, or HTML, is the building blocks of the internet and so the base of all 5 webpages found on the site.
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets): Cascading Style Sheets, or CSS, allows us add design, colour and  more to the building blocks created by the HTML.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript): JavaScript is used for the more complex moving parts of a website. I haven't used any javascript first hand but it is
+                                                          used throughout the site through [Bootstrap's](https://getbootstrap.com/) classes that make use of it automatically.
 
 <a></a>
 
@@ -360,13 +361,93 @@ easier.
 * [Google Fonts](https://fonts.google.com/)
 
 ### **Tools**
-* [Git](https://git-scm.com/)
+* [GitHub](https://github.com/)
 * [GitPod](https://www.gitpod.io/)
-* [Balsamic](https://balsamiq.com/wireframes/)
+* [Mockplus](https://app.mockplus.com/)
 * [W3C HTML Validation Service](https://validator.w3.org/)
 * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-* [techsini](http://techsini.com/)
-* [Tiny PNG](https://tinypng.com/)
+* [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+* [Google Images](https://www.google.com/imghp?hl=xx-elmer)
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+## **Testing**
+
+### Navigation Bar
+
+* **Plan**    
+I want to include a drop-down navigation bar which will be fixed to the top-right, in the header and next to the band logo.  
+I want the nav-bar to be in a drop-down form on all devices to save space, and to appear with the links to the five site
+pages aligned horizontally on desktop and tablet and instead vertically on mobile. 
+
+* **Implementation**   
+I used Bootstrap to implement the nav-bar as this helps to automatically structure it and adapt it better for different
+screen sizes. I used CSS to change the colour of the navbars colours, hamburger icon and text to make it fit better with
+the site.
+
+* **Test**    
+To test the navbar, I have clicked on all of the links to make sure they go to the right pages, then repeated this click
+test using chrome developer tools to click them in a mobile and tablet form to make sure that nothing changes it and that
+it still works. I also checked it on Edge and Firefox to see if it worked the same on other browsers, which turned out
+perfectly. 
+
+* **Result**    
+The navbar shows how I want it to on all devices and browsers. It was a little close to the right hand edge on mobile so 
+in my mobile media query I increased the margin to get a better result. All links work, it appears how I want it to and
+I'm completely happy with it.
+
+* **Verdict**    
+It works as predicted and I'm happy with the result. 
+
+### Modals
+* **Plan**    
+I want to implement 2 modals which open up when you click on 'Check out our amazing promotions' and one for providing feedback when you submit the form correctly. 
+
+* **Implementation**    
+As I don't have the required skills yet to write JavaScript, I have used Bootstrap to include the modals on the website. 
+I centered the modal vertically and horizontally as my overall website is centered and like this, it feels more like part of the website. 
+I have used the same colors as my overall website by overwriting the standard css provided by bootstrap.
+In order to center the title of the modal, I received some help from my mentor as I couldn't figure it out myself. 
+By adding a width of 100%, I managed to center the title as well which made the modal more visually appealing.
+
+* **Test**    
+I have tested both modals on various devices and browsers. 
+The modal was nicely centered and feels in line with the overall website. 
+The promotion modal is being triggered by clicking the button and the submitting modal is triggered whenever the form was filled in correctly. 
+
+* **Result**    
+The modals opened up when the correct button was clicked and appeared centered on the screen.
+
+* **Verdict**    
+The modals works as planned and met all the criteria. 
+
+
+### Contact Form 
+* **Plan**    
+I want to include a contact form which the user can fill in when they want to reach out to the owners directly.
+They should insert their name, email address & phone number so the owners can easily get back to them. 
+They should also be able include a message with the questions they are having. 
+Whenever they submit the form, I want a modal to open up in order to give feedback to the user that the form has been submitted correctly.
+
+* **Implementation**    
+In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button. 
+As it is a small & simple form, I have decided to not work with labels but placeholders instead. 
+I made sure that the form was styled according to the rest of the website. 
+
+* **Test**    
+When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
+This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
+My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
+The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
+
+* **Result**    
+After implementing the JavaScript, the form worked as planned and provided the correct feedback to the user.
+
+* **Verdict**    
+The form met all the criteria and works as planned. 
+
+[Back to Top](#table-of-contents)
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
