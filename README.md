@@ -349,27 +349,33 @@ easier.
 
 * [HTML](https://en.wikipedia.org/wiki/HTML): Hypertext Markup Language, or HTML, is the building blocks of the internet and so the base of all 5 webpages found on the site.
 * [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets): Cascading Style Sheets, or CSS, allows us add design, colour and  more to the building blocks created by the HTML.
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript): JavaScript is used for the more complex moving parts of a website. I haven't used any javascript first hand but it is
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript): JavaScript is used for the more complex moving parts of a website. I haven't used any javascript first-hand but it is
                                                           used throughout the site through [Bootstrap's](https://getbootstrap.com/) classes that make use of it automatically.
 
 <a></a>
 
 ### **Libraries & Frameworks**
 
-* [Font Awesome](https://fontawesome.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/): Font Awesome allowed me to acquire the icons that I used for my social media links.
+* [Bootstrap](https://getbootstrap.com/): Bootstrap is the primary library running the site, allowing my jumbotrons to function and my site to adapt well between tablet and mobile.
+* [Google Fonts](https://fonts.google.com/): Google Fonts provided the font Russo One which I've used for my navbar and individual page headings. 
 
 ### **Tools**
-* [GitHub](https://github.com/)
-* [GitPod](https://www.gitpod.io/)
-* [Mockplus](https://app.mockplus.com/)
-* [W3C HTML Validation Service](https://validator.w3.org/)
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-* [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-* [Google Images](https://www.google.com/imghp?hl=xx-elmer)
+* [GitHub](https://github.com/): Github is the software hosting site for the project and holds all of my work throughout.
+* [GitPod](https://www.gitpod.io/): Gitpod is the programming platform I've made use of as it integrates directly with GitHub. 
+* [Mockplus](https://app.mockplus.com/): Mockplus is a wireframe creation tool and is how I made the 15 wireframes I used for the design of my website.
+* [W3C HTML Validation Service](https://validator.w3.org/): W3C is an online validator that checks the HTML you feed into it for any syntax errors (i.e unclosed div's, using 
+                                                            obselete code, etc) and then tells you what's wrong so you can correct it.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): W3C CSS is an online validator that checks the CSS you feed into it for errors to tell you what's wrong so 
+                                                                      that you can fix it.
+* [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap's documentation tool allows you to search for anything found in bootstrap
+                                                                                              and provides you information about what it is and how it works.
+* [Google Images](https://www.google.com/imghp?hl=xx-elmer): Google images is a resource for online images. I used it for the objects in the merch section and checked to make sure
+                                                             all the ones I used were royalty free for use. 
 
 [Back to Table of Contents](#links-to-relevant-articles)
+
+---
 
 <a></a>
 ## **Testing**
@@ -397,31 +403,30 @@ The navbar shows how I want it to on all devices and browsers. It was a little c
 in my mobile media query I increased the margin to get a better result. All links work, it appears how I want it to and
 I'm completely happy with it.
 
-* **Verdict**    
-It works as predicted and I'm happy with the result. 
-
-### Modals
+### Jumbotrons/Rectangular Dividers
 * **Plan**    
-I want to implement 2 modals which open up when you click on 'Check out our amazing promotions' and one for providing feedback when you submit the form correctly. 
+I want to have nearly all of the site presented by seperated and aligned rectangles that each contain the bit of info
+relevant to the page they're on. 
 
 * **Implementation**    
-As I don't have the required skills yet to write JavaScript, I have used Bootstrap to include the modals on the website. 
-I centered the modal vertically and horizontally as my overall website is centered and like this, it feels more like part of the website. 
-I have used the same colors as my overall website by overwriting the standard css provided by bootstrap.
-In order to center the title of the modal, I received some help from my mentor as I couldn't figure it out myself. 
-By adding a width of 100%, I managed to center the title as well which made the modal more visually appealing.
+As I'm not at the necessary skill level with JavaScript to do this in a reasonable time frame, I used Bootstrap's 
+jumbotrons to do this as they fit into bootstrap's column system for multi-device implementation nicely and can be 
+adjusted very easily. For the most part they fit in well, aligning how I want them to and adapting to different devices
+how I predicted and wanted them to. On the occasion that they don't adapt to a device properly, I made use of advice
+from a tutor of creating a duplicate set of jumbotrons layed out exactly how I wanted them and then just making use
+of CSS to hide this duplicate set when the original ones work and making it appear when I need it to and then hiding
+the original.
+
+I have all the content within them centered, to make them align well. I also have them all slightly transparent through
+the use of RGBA in CSS so that any hero images and background colours aren't completely covered.  
 
 * **Test**    
-I have tested both modals on various devices and browsers. 
-The modal was nicely centered and feels in line with the overall website. 
-The promotion modal is being triggered by clicking the button and the submitting modal is triggered whenever the form was filled in correctly. 
+I've tested them on multiple devices, screen sizes and browsers and have achieved the intended result on all. Looking 
+at them on all pages to make sure they do as intended. No errors found. 
 
 * **Result**    
-The modals opened up when the correct button was clicked and appeared centered on the screen.
-
-* **Verdict**    
-The modals works as planned and met all the criteria. 
-
+The jumbotrons appear as intended, look good and provide the isolated information inside them nicely and visibly. I'm
+completely happy with my result.
 
 ### Contact Form 
 * **Plan**    
