@@ -508,16 +508,25 @@ enough so this is a guess at best.
 * **Result**   
 Bug was fixed and the jumbotrons all resize as intended now. 
 
-#### Icons
+#### Galaxy Fold Appearance
 
 * **Bug**    
-The social media icons didn't show nicely on mobile. One appeared below the other 2 instead of all 3 next to each other.
+The site resizes well for convential devices I tested (pixel 2a, iphone X, Ipad, Ipad Pro, etc) but when I tested
+it on a Galaxy Fold as presented by Chrome developer tools, it took a completely different form and huge parts of
+the site break including multiple sections, the header and the footer. 
 
 * **Fix**    
-Reduced the font-size and padding which resolved the issue immediately.
+The reason for the issue is obvious to me. The device has very odd dimensions compared to convential devices, being 
+only 280 pixels wide in its 'phone-form'. Because of this, huge amounts of things are being pushed down to the next
+row that should appear next to each other and items are appearing too large and covering others. To fix this, I
+would need to either create a new media query specifically for this device or go back through and change every
+single size value to work in vw or vh, which would be a long process as alot of my device uses pixel values that
+change based on media query. 
 
-* **Verdict**    
-Icons now show nicely next to each other on all devices and browsers. 
+* **Result**
+The bug has not been fixed and I will do so in the next release. I will also try to refrain from pixel values and
+make better use of vw/vh values instead in the future on all projects. 
+
 
 #### Navigation menu on smaller screensizes 
 
