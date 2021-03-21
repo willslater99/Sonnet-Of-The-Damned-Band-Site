@@ -608,10 +608,6 @@ footer {
 
 /*------- About.html on Mobile -------*/
 
-#about-the-band-text {
-    font-size: 20px;
-    margin: 0 auto;
-}
 
 .band-info-column {
     max-width: 270px;
@@ -818,6 +814,21 @@ footer {
 
 #about-band-desktop {
     display: none;
+}
+
+#about-the-band-text-tablet {
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#about-the-band-text-tablet-column-two {
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#about-page-band-photo-tablet img {
+    max-width: 280px;
+    margin: 0 auto;
 }
 
 #about-band-tablet {
