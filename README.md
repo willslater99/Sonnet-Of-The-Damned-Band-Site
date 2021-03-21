@@ -1,13 +1,372 @@
-# Sonnet-Of-The-Damned-Band-Site
+# Sonnet Of The Damned Band Website
 
-### Milestone project 1: A static webpage for the melodic hardcore band Sonnet Of The Damned. 
+![Multi-Device Mockup Picture](assets/images/multi-device-mockup.png)
 
-The goal of this is to create a usable website for the britisih melodic hardcore band Sonnet of the Damned.
-The project is intended to provide a website that is helpful for both fans of the band in acquiring merchandise and
-information and providing potential fans of the band the ability to grow their love for them.
+## Project Goal
+Time to change the music you listen to, time for Sonnet of the Damned. A melodic hardcore band from the south of england,
+Sonnet are a fantastic band who are growing by the day. This website will give you all the info you could want or need as
+a current or soon-to-be fan of the band in an easy and well defined way. The website is made individual by matching the 
+bands colour schemes, providing links to their content and merchandise and giving information about their news and the band 
+members.
 
+People don't like to work to find new music so it was very important that the information was clearly divided and easy
+to find about any specific subject.
 
-## UX/UI
+Thank you for coming to look at my project and if you want to know anything about the development process feel free to
+reach out to me through my github. Thanks!
+
+---
+#
+<a></a>
+## Links to Relevant Articles
+* [User Experience/UX](#user-experience)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements](#user-requirements)
+    * [User Expectations](#user-expectations)
+    * [Design](#design)
+        * [Structure And Layout](#structure-and-layout)
+        * [Colors](#colors)
+        * [Font Choices](#font-choices)
+        * [Icons](#icons)
+* [Wireframes](#wireframes)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Potential Future Features](#potential-future-features)
+* [Technologies used](#technologies-used)
+    * [Languages](#languages)
+    * [Tools and Libraries](#tools-and-libraries)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+---
+
+<a name="ux"></a>
+## **User Experience**
+<a></a>
+### **User Goals**
+
+The user goals for the site are...
+* A website that works well on desktop, mobile and tablet.
+* A website that looks good in all places.
+* A website that fits with the existing band identity so a fan would want to use it.
+* A website that allows easy access to the bands current social medias.
+* A website that can easily direct towards merchandise for fans.
+* A website that allows a user to get straight to the information they want to see without wading through information they don't want.
+* A website that gives information about current tour dates.
+* A website that gives up to date and relevant news about the band.
+* A website that lets the user find out more about the band and its members easily.
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+### **User Stories**
+
+As a user, I want...
+* To be easily able to go to the bands social medias.
+* To see images of the band and its members.
+* To be able to find out whats happening with the band.
+* To see and hear their music on the website.
+* To be able to buy the bands merch if I like their music.
+* To be able to find out about the history of the band.
+* To find out when the band are playing shows near me.
+* To be able to use the website on my phone.
+* To have different sections of information clearly divided so I can find things.
+* To know whether the band make music I like so I can make my decision quickly whether to stay or go.
+* To be able to get right to the information I want without wading through info I don't care about.
+* To be convinced that the band are exciting and good.
+* To know that any outside link I click (i.e. social media) will open in a different tab so it doesn't interrupt my browsing experience.
+* It to be obvious that I'm on the right website and in the right location.
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+### **Site Owners Goals**
+
+As a site owner, I want a site that...
+* Makes it easy to sell merchandise and increases merch sales.
+* Interacts well with our social medias and increases listener numbers.
+* Makes us look better than other competing bands.
+* Lets us easily say when we're playing shows to increase ticket sales.
+* Talks about who we are to make people become more interested in us and attract new fans.
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+### **User Requirements**
+
+As a user, I require...
+* A site that is easy to navigate through the use of the navbar.
+* Contains relevant content to the band.
+* Looks good and makes sense relevant to the bands aesthetics.
+* Nothing to provide any error messages and the band info to be clear. 
+* A site that works on mobile and tablet as well as desktop.
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+#### **User Expectations**
+
+As a user, I expect...
+* All information on bands show to tell me when and where they're performing.
+* Any external link (like social media or merchandise) I click to open in a new tab.
+* Has an easy way to purchase merchandise.
+* to see what the merchandise looks like before I click on it.
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+### **Design**
+
+<a></a>
+#### Structure And Layout
+I've decided to use [Bootstrap](https://getbootstrap.com/) for the overall structure and layout of my website as its
+pre-included CSS and javascript elements make it much easier to keep a similar design from one page to another, has
+a great mobile first layout that will adapt very well as well as my belief that I can make use of the jumbotron function 
+to easily achieve the rectangle and squares based layout I designed in my wireframes.
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+#### Colors
+As the band already had a logo and had made use of primarily black and white on their social medias, I decided it made
+sense to stay in that general area for the rest of the website design as well. I looked at [ColorSpace](https://mycolor.space/)
+and [Adobe Color Wheel](https://color.adobe.com/create/color-wheel) but just couldn't find anything I liked more than my 
+original black and off-white design. 
+
+* RGB(0,0,0): Pure and complete black. This opposes their logo (which is RGB(255,255,255)) perfectly so I decided that simple was best and stuck with it.
+* RGB(223,223,223): An off-white greyish colour. I decided this was better than going with pure white like I originally planned because it makes the site less harsh
+on the eyes.
+
+It's not a very complicated design but it has great contrast, is easily readable and makes it easy to make the non-white elements of the site stand out.
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+#### Font Choices
+For my websites fonts, I made use of [Google Fonts](https://fonts.google.com/) to find what was available to me. I didn't need 
+anything for the heading as was making use of the bands logo, so wanted to find something to stand out in other places and 
+eventually settled on using Russo One for the navbar, as it was adventurous, and would likely get annoying if used for whole
+paragraphs, but worked perfectly for 5 large single word links and a sub-header on each page. 
+
+As a backup for Russo One I used sans-serif as its extremely readable and very reliable, and decided to make use of that for 
+the rest of the text on the website for the exact same reasons. 
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+#### Icons
+To compliment the fonts, I decided to make use of icons for my social medias links, and realised very quickly that 
+[Font Awesome](https://fontawesome.com/) would be the best way to do it. With three simple searches I was able to find the
+right icons for my social medias, and were easily styled to fit in with the header bar around it and to match the band logo
+next to (or above if on mobile) it. For the navbar icon I used the bootstrap default one, but made modifications to it as
+bootstrap only provides an off-white and off-black one and I wanted a pure white one with a clear border to make it match
+the social icons and band logo. 
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+--- 
+
+<a></a>
+## **Wireframes**
+I made use of a website called [MockPlus](https://app.mockplus.com) to create the wireframes for my website. I realised
+later that there were more efficient and easier tools but stuck with it as I was already half way through and it would
+have been more work to switch to something else. 
+I made my wireframe for the homepage's desktop version first, then did the same for the other 4 pages of the site, And
+then after that made the phone and tablet versions for each. This let me focus on design in the initial stage and then
+adapatation afterwards. The website was made to be quick to find what you need through the navbar and each page to be
+short and sweet, with the essential information and little more. 
+
+All 15 wireframes are viewable below:
+
+### **Home - index.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-mobile-wireframe.png)
+
+### **News - news.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-mobile-wireframe.png)
+
+### **Tour - tour.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-mobile-wireframe.png)
+
+### **Merch - merch.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-mobile-wireframe.png)
+
+### **About - about.html**
+
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-wireframe.png)
+
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-tablet-wireframe.png)
+
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-mobile-wireframe.png)
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+--- 
+<a></a>
+## **Features**
+<a></a>
+### **Existing Features**
+
+#### Navigation
+
+For navigation I decided to go with a dropdown navbar from a hamburger icon that I used Bootstrap to implement,
+choosing to have this appear no matter the platform viewed on instead of just on mobile as some might have, as I 
+felt it was better to save space and clean up the visual appearance of the desktop version of the site. I stuck with
+website standards on this and affixed the icon to the header bar on the top right, as it appears on many or even 
+most websites.
+
+#### Social Medias 
+
+To better integrate with the pre-existing social medias the client has, I decided to use three matching Icons through
+[Font Awesome](https://fontawesome.com/) affixed to the top left of the header bar on desktop and tablet to make it
+easy for users to find the three main social medias of the client. For the mobile view I changed this a bit to give
+a more appealing look, making use of a media query to hide the original icons and place a replica set of icons below
+the band logo, giving a better mobile website flow overall.
+
+#### Band Logo Header 
+
+For the website header I choose not to use fonts and to just go directly with the clients pre-existing logo, which
+I made into a clickable in-site link that returns to the site homepage no matter the platform, as this is very
+standard and has almost come to be expected from modern websites. 
+
+#### Hero Image
+
+I implemented a hero image of the band performing and placed it below the header of the site, then covering it with
+a partially transparent grey cover, to give a darker effect to the image overall and make it blend in better with the
+websites darker tones as it was originally quite a bright image. I set its width to cover the entire website and its 
+height to 70vh, allowing some of the next section below it to show so that someone has the opportunity to see whats
+next and potentially get them interested. 
+
+#### News/New Releases Jumbotrons
+
+I made use of Bootstrap's jumbotron feature heavily throughout the site, and it started with two equally spaced 
+jumbotrons next to each other. One of these is entitled news and shows a piece of news about the band of the clients
+choice, in this case including an embedded youtube video. The other is New Release and is supposed to show the newest
+thing out by the client, in this case a cover of theirs, shown through an embedded spotify song. 
+
+#### News Columns
+
+Again using the jumbotron feature, I have created columns that display each a different article of news about the band.
+On desktop these appear as three equally spaced long columns next to each other, and on tablet and mobile instead appear
+in a stacking fashion, one on top of the other. This differs from my original wireframe for tablet as my original plan 
+was just to have the tablet version appear like a smaller version of the desktop, but I realised that it just would have
+been too small to be functional and adapted it. 
+
+#### Tour Dates
+
+The website provides tour dates for the band, stating the city, venue and date they are performing. On desktop and tablet
+this appears as two large boxed columns next to each other (again using jumbotrons) and on mobile instead appears as one
+longer scrolling boxed column. This provides a readable view on all platforms and makes good use of the space without
+being hard to look through or wasting any space.
+
+#### Merchandise
+
+Through the website, you can also see the bands merchandise and use a link to go to the relevant place to buy it. On 
+desktop this appears as three boxes next to each other on each row and is in two rows (although it could be as many as
+the client wanted, I just kept it simple to start), on tablet it displays as two boxes next to each other in three rows
+and on mobile appears as each box taking up the majority of the screen width and appearing one after another in a 
+scrolling fashion. This is well designed as it can be as short or long and include as many items as the client likes.
+
+#### About The Band
+
+On the about the band section, I've used a large jumbotron split into three columns (the first two being text and the
+last being a picture of the band) as this allows the website to simply shift a third of the site onto the next row to
+adapt to smaller screens without much work. On desktop they appear all next to each other, on tablet they appear as two
+columns of text and a picture below it and on mobile they just look like two paragraphs and then a picture.
+
+#### About the Band members
+
+For the about the band members section, I've again used jumbotrons to have a jumbotron for each band member, each One
+containing a picture and a paragraph of information. On desktop this appears as 4 equally sized and spaced columns next
+to each other for the 4 band members, on tablet this appears in rows of two by two and on mobile it appears one below
+another in a scrolling fashion, making it perfectly adapatable and easy to use. 
+
+#### Footer
+
+In the footer, I included a small bit of legal info stating it was developed by Will Slater and the year that was done 
+so and affixed it to the center left. The most useful feature of the footer though is that it includes smaller versions
+of the three social media icons found in the header, so that someone can click to these links without having to scroll
+back up to the top of the page. These are affixed to the right hand corner of the footer and do and look the same as the 
+top icons, but are just smaller and added purely for user convenience. 
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+<a></a>
+### **Potential Future Features**
+
+#### Payment Systems
+
+In the future I'd like to integrate a payment system. It could have huge potential uses for the merchandise section as 
+being able to sell merchandise, albums and show tickets directly from the website could do massive for sales numbers and
+overall taking for the client. 
+
+#### Contact form
+
+A contact form could be potentially integrated so that events managers could contact them about booking them for shows and
+fans could contact them with questions.
+
+#### Sell tickets
+
+A way to sell tickets to the events listed on the tour section could be great for upping attendance numbers. I didn't look
+at this now as the band still don't have presale on alot of their shows, but it could be great as they grow.
+
+#### Google Maps Integration
+
+Being able to click on a specific venue name listed on the tour section and see through either an embedded popup or link 
+directly to the google maps site would be great, allowing the user to see exactly where the venue is to make attendance 
+easier. 
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+---
+
+<a></a>
+## **Technologies Used In Development**
+<a></a>
+### **Languages**
+
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+<a></a>
+
+### **Libraries & Frameworks**
+
+* [Font Awesome](https://fontawesome.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+### **Tools**
+* [Git](https://git-scm.com/)
+* [GitPod](https://www.gitpod.io/)
+* [Balsamic](https://balsamiq.com/wireframes/)
+* [W3C HTML Validation Service](https://validator.w3.org/)
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+* [techsini](http://techsini.com/)
+* [Tiny PNG](https://tinypng.com/)
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
