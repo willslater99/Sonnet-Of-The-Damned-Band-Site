@@ -415,10 +415,8 @@ adjusted very easily. For the most part they fit in well, aligning how I want th
 how I predicted and wanted them to. On the occasion that they don't adapt to a device properly, I made use of advice
 from a tutor of creating a duplicate set of jumbotrons layed out exactly how I wanted them and then just making use
 of CSS to hide this duplicate set when the original ones work and making it appear when I need it to and then hiding
-the original.
-
-I have all the content within them centered, to make them align well. I also have them all slightly transparent through
-the use of RGBA in CSS so that any hero images and background colours aren't completely covered.  
+the original. I have all the content within them centered, to make them align well. I also have them all slightly 
+transparent through the use of RGBA in CSS so that any hero images and background colours aren't completely covered.  
 
 * **Test**    
 I've tested them on multiple devices, screen sizes and browsers and have achieved the intended result on all. Looking 
@@ -428,31 +426,37 @@ at them on all pages to make sure they do as intended. No errors found.
 The jumbotrons appear as intended, look good and provide the isolated information inside them nicely and visibly. I'm
 completely happy with my result.
 
-### Contact Form 
+### Social Media Links
 * **Plan**    
-I want to include a contact form which the user can fill in when they want to reach out to the owners directly.
-They should insert their name, email address & phone number so the owners can easily get back to them. 
-They should also be able include a message with the questions they are having. 
-Whenever they submit the form, I want a modal to open up in order to give feedback to the user that the form has been submitted correctly.
+I want to include three icons to link directly to the clients various social medias. These should appear as in the
+top left, inside the header and be aligned with the band logo header text and navbar icon. 
 
 * **Implementation**    
-In order to implement this, I have created a form in my index.html with 3 input fields, 1 textarea field and a submit button. 
-As it is a small & simple form, I have decided to not work with labels but placeholders instead. 
-I made sure that the form was styled according to the rest of the website. 
+To implement this, I made use of FontAwesome to get the three right icons for my three links. I made an unordered list
+with the links to each social media being the three items in the list, then used CSS to stylise the whole thing, making
+them appear as 3 squares with the icon in the center, then setting their background color to white and the icon to black,
+rounding the corners on them to make them look better and then finally setting for the background and icon color to reverse
+when hovered over on desktop. Finally, as I wanted them to appear below the band logo on mobile, I made use of the trick I 
+had been taught of duplicating and hiding it, so created a copy of the icons and then placed the come for it after the band
+logo and before the navbar, allowing them to appear below the logo but to the left of the navbar on mobile. Then I simply 
+hid it on desktop and tablet views and made it appear on mobile, hiding the original one for mobile view to avoid having 
+two visible copies. Finally, I duplicated this code and added it onto the bottom of the footer, then gave it a different ID 
+and used CSS to change its size and hide it on mobile view, as I realised this would appear better.
 
 * **Test**    
-When I tested the form, I noticed that the modal opened up eventhough the form was not filled in. 
-This gave the wrong feedback to the user. As I didn't have the required skills to implement form validation, I discussed this with my mentor. 
-My mentor wrote a small part of JavaScript which I was able to implement in order for the form not being able to be submitted without the required fields being filled in. 
-The data that is being inserted is currently not send anywhere as I don't have the knowledge yet but this is on the list with future features to be implemented. 
+I tested these links by clicking on all three of them on all 5 pages (15 times), then repeating that on tablet and mobile
+(45 times) and finally doing the same thing on Edge and Firefox (resulting in me clicking the same three links 135 times).
+I viewed them on all platforms to make sure they looked how I wanted them to.
 
 * **Result**    
-After implementing the JavaScript, the form worked as planned and provided the correct feedback to the user.
+After all the testing the links came out perfect, the icons look how I want them to and I'm completely happy with the
+result that I've achieved. 
 
-* **Verdict**    
-The form met all the criteria and works as planned. 
 
-[Back to Top](#table-of-contents)
+[Back to Table of Contents](#links-to-relevant-articles)
+
+
+---
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
