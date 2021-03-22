@@ -36,12 +36,12 @@ reach out to me through my github. Thanks!
     * [Potential Future Features](#potential-future-features)
 * [Technologies Used in Development](#technologies-used-in-development)
     * [Languages](#languages)
-    * [Tools and Libraries](#tools-and-libraries)
+    * [Libraries & Tools](#libraries-and-tools)
 * [Testing](#testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Acknowledgements](#acknowledgements)
-# [Final Thoughts](#final-thoughts)
+* [Final Thoughts](#final-thoughts)
 
 ---
 
@@ -355,8 +355,7 @@ easier.
                                                           used throughout the site through [Bootstrap's](https://getbootstrap.com/) classes that make use of it automatically.
 
 <a></a>
-
-### **Libraries & Frameworks**
+### **Libraries and Tools**
 
 * [Font Awesome](https://fontawesome.com/): Font Awesome allowed me to acquire the icons that I used for my social media links.
 * [Bootstrap](https://getbootstrap.com/): Bootstrap is the primary library running the site, allowing my jumbotrons to function and my site to adapt well between tablet and mobile.
