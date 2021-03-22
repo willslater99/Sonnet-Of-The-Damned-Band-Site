@@ -528,19 +528,66 @@ The bug has not been fixed and I will do so in the next release. I will also try
 make better use of vw/vh values instead in the future on all projects. 
 
 
-#### Navigation menu on smaller screensizes 
+#### Social Icons
 
 * **Bug**    
-When the screen gets smaller, the fontsize of the navigation bar is too small and the collapse button goes off the screen. 
+When viewed on desktop the icons weren't appearing on desktop or tablet but were on mobile.
 
 * **Fix**        
-Removed the display: block and updated the width to 100% instead of 100vw like the assessor suggested. 
-Updated the font-size as well in order to be more easy to read. 
+I looked through the css for the classes and ID's attached to the social icons and their links and quickly found
+that, as I have duplicate versions of the social icons for different placement on different devices, I had
+accidentally set the ID's for them both as 'display: none;' on the main css but had entered them correctly as
+'display: none;' and 'display: inline;' on the mobile media query. I corrected the issue and made the original
+copies of the icons show, fixing the issue. 
 
-* **Verdict**    
-Bug was resolved and navigation bar now works as planned and is more userfriendly. 
+* **Result**    
+The issue was fixed and now appears as intended on all primary devices. I'm happy with the result.
 
-[Back to Top](#table-of-contents)
+[Back to Table of Contents](#links-to-relevant-articles)
+
+---
+
+<a></a>
+## **Deployment**
+
+This project was deployed using GitHub by following the steps given below, which must be done after the code
+has been written, committed and pushed to GitHub.
+
+1. Log into your GitHub account. 
+2. Enter the repository and then go to the **Settings** tab.
+3. Scroll down to the 'GitHub pages' section and then the 'Source' piece within it.
+4. Select 'Branch: Main' from the dropdown menu and then select the folder of 'Root'.
+5. Click 'Save' and then wait a couple minutes and it should be up and working.
+6. Now its completely viewable at https://willslater99.github.io/Sonnet-Of-The-Damned-Band-Site/ and any and all commit's and pushes from relevant IDE's (such as GitPod) 
+will automatically update it.
+
+If you want to run the project locally:
+
+1. Log into your GitHub account.
+2. Click the 'Code' dropdown and then within it, select the HTTPS option and copy the link displayed.
+3. Open your IDE and open the Git Terminal. 
+4. Set your working directory to the intended directory for the cloned repository.
+5. Use the 'git clone' command and paste in the URL copied from before. 
+6. Enter and it will create your clone repository. 
+
+[Back to Table of Contents](#links-to-relevant-articles)
+
+---
+
+<a></a>
+## **Credits**
+
+I've used two sites for the primary inspiration on how I would build my site. Both rock-band sites for helping align with the standards. 
+
+[Nickelback](https://www.nickelback.com/)
+
+[Evanesence](https://www.evanescence.com/home/)
+
+All of my pictures for the website were taken from the clients social medias except for the merchandise page, where I used [Google Images](https://www.google.com/imghp?hl=xx-elmer)
+and looked for royalty free images to use, as these are only made to be temporary fill-ins before they can be replaced with genuine merchandise photos for the band.
+
+
+
 
 The website is for fans of the band and potential fans and is made to serve two seperate purposes. 
 
