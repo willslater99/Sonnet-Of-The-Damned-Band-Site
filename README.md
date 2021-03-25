@@ -64,56 +64,52 @@ The user goals for the site are...
 <a></a>
 ### **User Stories**
 
-As a user, I want...
-* To be easily able to go to the bands social medias.
-* To see images of the band and its members.
-* To be able to find out whats happening with the band.
-* To see and hear their music on the website.
-* To be able to buy the bands merch if I like their music.
-* To be able to find out about the history of the band.
-* To find out when the band are playing shows near me.
-* To be able to use the website on my phone.
-* To have different sections of information clearly divided so I can find things.
-* To know whether the band make music I like so I can make my decision quickly whether to stay or go.
-* To be able to get right to the information I want without wading through info I don't care about.
-* To be convinced that the band are exciting and good.
-* To know that any outside link I click (i.e. social media) will open in a different tab so it doesn't interrupt my browsing experience.
-* It to be obvious that I'm on the right website and in the right location.
+* As a user, I want to be easily able to go to the bands social medias.
+* As a user, I want to see images of the band and its members.
+* As a user, I want to be able to find out whats happening with the band.
+* As a user, I want to see and hear their music on the website.
+* As a user, I want to be able to buy the bands merch if I like their music.
+* As a user, I want to be able to find out about the history of the band.
+* As a user, I want to find out when the band are playing shows near me.
+* As a user, I want to be able to use the website on my phone.
+* As a user, I want to have different sections of information clearly divided so I can find things.
+* As a user, I want to know whether the band make music I like so I can make my decision quickly whether to stay or go.
+* As a user, I want to be able to get right to the information I want without wading through info I don't care about.
+* As a user, I want to be convinced that the band are exciting and good.
+* As a user, I want to know that any outside link I click (i.e. social media) will open in a different tab so it doesn't interrupt my browsing experience.
+* As a user, I want it to be obvious that I'm on the right website and in the right location.
 
 [Back to Table of Contents](#links-to-relevant-articles)
 
 <a></a>
 ### **Site Owners Goals**
 
-As a site owner, I want a site that...
-* Makes it easy to sell merchandise and increases merch sales.
-* Interacts well with our social medias and increases listener numbers.
-* Makes us look better than other competing bands.
-* Lets us easily say when we're playing shows to increase ticket sales.
-* Talks about who we are to make people become more interested in us and attract new fans.
+* As a site owner, I want a site that makes it easy to sell merchandise and increases merch sales.
+* As a site owner, I want a site that interacts well with our social medias and increases listener numbers.
+* As a site owner, I want a site that makes us look better than other competing bands.
+* As a site owner, I want a site that lets us easily say when we're playing shows to increase ticket sales.
+* As a site owner, I want a site that talks about who we are to make people become more interested in us and attract new fans.
 
 [Back to Table of Contents](#links-to-relevant-articles)
 
 <a></a>
 ### **User Requirements**
 
-As a user, I require...
-* A site that is easy to navigate through the use of the navbar.
-* Contains relevant content to the band.
-* Looks good and makes sense relevant to the bands aesthetics.
-* Nothing to provide any error messages and the band info to be clear. 
-* A site that works on mobile and tablet as well as desktop.
+* As a user, I require a site that is easy to navigate through the use of the navbar.
+* As a user, I require a site that contains relevant content to the band.
+* As a user, I require a site that looks good and makes sense relevant to the bands aesthetics.
+* As a user, I require that nothing provides any error messages and the band info to be clear. 
+* As a user, I require a site that works on mobile and tablet as well as desktop.
 
 [Back to Table of Contents](#links-to-relevant-articles)
 
 <a></a>
 #### **User Expectations**
 
-As a user, I expect...
-* All information on bands show to tell me when and where they're performing.
-* Any external link (like social media or merchandise) I click to open in a new tab.
-* Has an easy way to purchase merchandise.
-* to see what the merchandise looks like before I click on it.
+* As a user, I expect all information on bands show to tell me when and where they're performing.
+* As a user, I expect any external link (like social media or merchandise) I click to open in a new tab.
+* As a user, I expect an easy way to purchase merchandise.
+* As a user, I expect to see what the merchandise looks like before I click on it.
 
 [Back to Table of Contents](#links-to-relevant-articles)
 
