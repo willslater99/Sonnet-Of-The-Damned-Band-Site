@@ -179,45 +179,52 @@ short and sweet, with the essential information and little more.
 
 All 15 wireframes are viewable below:
 
-### **Home - index.html**
+### **Home**
 
-#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-wireframe.png)
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-home-wireframe.png)
 
-#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-tablet-wireframe.png)
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-home-tablet-wireframe.png)
 
-#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-home-mobile-wireframe.png)
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-home-mobile-wireframe.png)
 
-### **News - news.html**
+### **News**
 
-#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-wireframe.png)
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-news-wireframe.png)
 
-#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-tablet-wireframe.png)
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-news-tablet-wireframe.png)
 
-#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-news-mobile-wireframe.png)
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-news-mobile-wireframe.png)
 
-### **Tour - tour.html**
+### **Tour**
 
-#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-wireframe.png)
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-tour-wireframe.png)
 
-#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-tablet-wireframe.png)
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-tour-tablet-wireframe.png)
 
-#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-tour-mobile-wireframe.png)
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-tour-mobile-wireframe.png)
 
-### **Merch - merch.html**
+### **Merch**
 
-#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-wireframe.png)
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-merch-wireframe.png)
 
-#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-tablet-wireframe.png)
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-merch-tablet-wireframe.png)
 
-#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-merch-mobile-wireframe.png)
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-merch-mobile-wireframe.png)
 
-### **About - about.html**
+### **About**
 
-#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-wireframe.png)
+#### [Desktop](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-about-wireframe.png)
 
-#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-tablet-wireframe.png)
+#### [Tablet](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-about-tablet-wireframe.png)
 
-#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/assets/initial-design/wireframes/sonnet-about-mobile-wireframe.png)
+#### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-about-mobile-wireframe.png)
+
+It may seem strange that I have wireframes designed for 5 different pages when my website is a single smooth
+scrolling page, but this was a conscious decision during the project, realising on the recommendations of others 
+that looked at the site that as its only 5 pages and each page is very small, it would make more sense to have
+them as different sections of a single page. Although they don't all have an individual page anymore, its still
+the exact same content, and the navbar simply scrolls you to the relevant point of the page instead of taking you
+to a different one, so the site essentially functions the same.
 
 [Back to Table of Contents](#links-to-relevant-articles)
 
