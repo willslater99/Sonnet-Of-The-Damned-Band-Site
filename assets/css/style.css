@@ -126,17 +126,17 @@ footer {
 }
 
 .social-links-footer li a i:hover {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #fff;
     border-style: solid;
     border-width: 2px;
-    border-color: white;
+    border-color: #fff;
 }
 
 /*------- Index.html -------*/
 
 .initial-container {
-    height: 70vh;
+    height: 95vh;
 
     background: url("../images/hero-image.jpg") no-repeat top right fixed; 
   -webkit-background-size: cover;
@@ -195,6 +195,15 @@ footer {
     border-style: solid;
     border-width: 2px;
     border-color: black;
+    width: 25vw;
+    margin: 0 auto;
+    vertical-align: center;
+    display: block;
+
+}
+
+#band-photo-section-desktop {
+    vertical-align: middle;
 }
 
 #about-the-band-home-text {
@@ -257,6 +266,8 @@ footer {
 .news-header {
     margin-top: 20px;
     font-family: 'Russo One', sans-serif;
+    color: #fff;
+    background-color: rgba(0,0,0,.9);
 }
 
 #news-page-tablet {
@@ -293,8 +304,10 @@ footer {
 }
 
 .tour-header {
-    margin-top: 20px;
+    margin-bottom: 1em;
     font-family: 'Russo One', sans-serif;
+    color: #fff;
+    background-color: rgba(0,0,0,.9);
 }
 
 /*------- merch.html -------*/
@@ -326,8 +339,10 @@ footer {
 }
 
 .merch-header {
-    margin-top: 20px;
+    margin-top: 1em;
     font-family: 'Russo One', sans-serif;
+    color: #fff;
+    background-color: rgba(0,0,0,.9);
 }
 
 #merch-page-tablet {
@@ -353,12 +368,13 @@ footer {
     margin-top: 20px;
 }
 
-.merch-item-link {
-    color: white;
-}
-
 #merch-tablet {
     display: none;
+}
+
+.merch-item-link {
+    font-size: 2em;
+    color: #fff;
 }
 
 /*------- About.html -------*/
@@ -374,8 +390,11 @@ footer {
 }
 
 .about-header {
-    margin-top: 20px;
+    margin-top: 1em;
+    margin-bottom: 1em;
     font-family: 'Russo One', sans-serif;
+    color: #fff;
+    background-color: rgba(0,0,0,.9)
 }
 
 .member-photos {
@@ -410,6 +429,10 @@ h3.jumbotron-header {
     float: none;
 }
 
+.custom-toggler {
+    margin-right: 3em;
+}
+
 #navbarmenu > ul {
     display: inline-flex;
     text-align: center;
@@ -417,14 +440,15 @@ h3.jumbotron-header {
 }
 
 .navbar-toggler {
-    margin-top: 15px;
+    margin-top: 1em;
 }
 
 #band-logo {
-    height: 60px;
-    width: 300px;
+    height: 3em;
+    width: 15em;
     display: block;
     margin: 0 auto;
+    margin-right: 2em;
 }
 
 .social-links {
@@ -543,7 +567,7 @@ footer {
 .news-container {
     background-color: rgb(223, 223, 223);
 
-    height: 240vh;
+    height: 320vh;
  
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -569,7 +593,7 @@ footer {
 
 
 .tour-container {
-    height: 240vh;
+    height: 210vh;
 }
 
 
@@ -635,7 +659,7 @@ footer {
 .navbar-nav > li {
     display: inline-block;
     float: none;
-    font-size: 2.5rem;
+    font-size: 3em;
     margin: 0 40px;
 }
 
@@ -660,8 +684,8 @@ footer {
 /*------- Index.html on Tablet -------*/
 
 .initial-container {
-    max-height: 150vh;
-    min-height: 130vh;
+    max-height: 170vh;
+    min-height: 150vh;
 }
 .news-and-new-release {
     min-height: 40vh;
@@ -776,7 +800,7 @@ footer {
 }
 
 .merch-container {
-    height: 50vh;
+    height: 60vh;
 }
 
 .merch-sections {
@@ -807,10 +831,6 @@ footer {
     margin: 0 auto;
 }
 
-.merch-item-link {
-    font-size: 1.6rem;
-}
-
 /*------- about.html on Tablet-------*/
 
 #about-band-desktop {
@@ -818,12 +838,12 @@ footer {
 }
 
 #about-the-band-text-tablet {
-    font-size: 4rem;
+    font-size: 2.5em;
     margin: 0 auto;
 }
 
 #about-the-band-text-tablet-column-two {
-    font-size: 4rem;
+    font-size: 2.5em;
     margin: 0 auto;
 }
 
