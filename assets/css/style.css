@@ -12,9 +12,9 @@ body {
 .navbar-nav > li {
     display: inline-block;
     float: none;
-    font-size: 3rem;
-    margin: 0 80px;
-    color: white;
+    font-size: 6em;
+    margin: 0 1em;
+    color: #fff;
     font-family: 'Russo One', sans-serif;
 }
 
@@ -29,11 +29,11 @@ body {
 
 .navbar {
     text-align: center;
-    background-color: black;
+    background-color: #000000;
 }
 
 .navbar-toggler {
-    margin-right: 25px;
+    margin-right: 1.3em;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -42,27 +42,26 @@ body {
 
 .custom-toggler.navbar-toggler {
   border-color: rgb(255, 255, 255);
-  border-width: 2px;
+  border-width: 0.1em;
 } 
 
 /*------- Social Links -------*/
 
 .social-links {
-    padding-bottom: 0px;
-    padding-top: 12px;
+    padding-top: 1em;
 }
 
 .social-links li a i {
-    width: 52px;
-    height: 52px;
-    margin: 0 10px;
-    padding: 24px 0;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 0.3em;
+    padding: 0.5em 0;
     border-radius: 25%;
-    font-size: 2.6rem;
-    line-height: 7px;
+    font-size: 3.5em;
+    line-height: 0.5em;
     text-align: center;
-    color: black;
-    background: white;
+    color: #000000;
+    background: #fff;
         transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -70,11 +69,11 @@ body {
 }
 
 .social-links li a i:hover {
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #fff;
     border-style: solid;
-    border-width: 2px;
-    border-color: white;
+    border-width: 0.1em;
+    border-color: #fff;
 }
 
 #social-desktop {
@@ -88,37 +87,35 @@ body {
 /*------- Footer -------*/
 
 footer {
-    background-color: black;
+    background-color: #000000;
     color: #fafafa;
-    min-height: 80px;
+    min-height: 8em;
     margin: 0;
 }
 
 #legal-info {
-    margin: 28px 0;
+    margin: 2em;
     position: absolute;
-    left: 20px;
 }
 
 .social-links-footer {
-    padding-bottom: 0px;
-    padding-top: 12px;
+    padding-top: 1.2em;
     position: absolute;
-    right: 20px;
+    right: 2em;
 }
 
 .social-links-footer li a i {
     display: block;
-    width: 26px;
-    height: 26px;
-    margin: 15px 10px;
-    padding: 12px 0;
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0.5em 0.6em;
+    padding: 0.3em 0;
     border-radius: 25%;
-    font-size: 1.3rem;
-    line-height: 7px;
+    font-size: 1.8rem;
+    line-height: .7em;
     text-align: center;
-    color: black;
-    background: white;
+    color: #000000;
+    background: #fff;
         transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -129,7 +126,7 @@ footer {
     background-color: #000000;
     color: #fff;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0.1em;
     border-color: #fff;
 }
 
@@ -163,9 +160,9 @@ footer {
 
 .jumbotron {
     background-color: rgba(0,0,0,.9);
-    color: white;
+    color: #fff;
     border-style: solid;
-    border-color: white;
+    border-color: #fff;
 }
 
 .news-and-new-release {
@@ -176,46 +173,85 @@ footer {
 .jumbotron.about-the-band-jumbo {
     background-color: rgba(0,0,0,.0);
     border-style: none;
-    min-height: 300px;
-    min-width: 500px;
-    padding: 0;
-    margin: 0;
 }
 
-#small-band-photo {
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-    width: 25vw;
-    margin: 0 auto;
-    vertical-align: center;
+.news-header, .about-header, .tour-header, .merch-header {
+    font-family: 'Russo One', sans-serif;
+    font-size: 4em;
+    background-color: #000000;
+    color: #fff;
+}
+@media only screen and (max-width: 600px) {
+
+#social-desktop {
+    display: none;
+}
+
+#social-mobile {
     display: block;
-
 }
 
-#band-photo-section-desktop {
-    vertical-align: middle;
-}
-
-#about-the-band-home-text {
-    margin: 50px 0;
-    color: black;
-}
-
-#sma
-
-.jumbotron-header.about-the-band-home-header {
-    color: black;
-}
-
-#find-out-more {
-    color:black;
-}
-
-#find-out-more-tablet {
-    color: black;
-}
-
-#band-info-desktop {
+#band-logo {
+    height: 3em;
+    width: 15em;
+    display: block;
     margin: 0 auto;
-    margin-top: 
+}
+
+.social-links li a i {
+    width: 1.1em;
+    height: 1.1em;
+    margin: 0 0.2em;
+    padding: 0.25em 0;
+    border-radius: 25%;
+    font-size: 4.7em;
+    line-height: .7em;
+    text-align: center;
+     color: #000000;
+    background: #fff;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.initial-container {
+    margin-top: 16em;
+}
+
+#legal-info {
+    text-align: center;
+}
+
+.social-links-footer {
+    display: none;
+}
+
+footer {
+    max-height: 6em;
+}
+
+#navbarmenu > ul {
+    display: inline-flex;
+    text-align: center;
+    margin-right: 4em;
+}
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1050px) {
+
+#band-logo {
+    width: 20em;
+    height: 3em;
+}
+
+.navbar-toggler {
+    margin-right: 1em;
+}
+
+.navbar-nav > li {
+    font-size: 4em;
+    margin: 0.5em;
+}
+}

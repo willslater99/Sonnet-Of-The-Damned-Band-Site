@@ -5,10 +5,6 @@
 
     /*------- Making Navbar Vertical on Mobile -------*/
 
-.navbar-nav > li {
-    display: inline-block;
-    float: none;
-}
 
 .custom-toggler {
     margin-right: 3em;
@@ -65,14 +61,6 @@
 
 /*------- Optimising Footer on Mobile -------*/
 
-#legal-info {
-    text-align: center;
-    margin: 10px 20px 20px 0px;
-}
-
-.social-links-footer {
-    display: none;
-}
 
 footer {
     min-height: 60px;
@@ -249,17 +237,7 @@ footer {
     height: 50px;
 }
 
-#band-logo {
-    width: 400px;
-    height: 60px;
-    margin-top: -8px;
-    margin-right: 300px;
-    margin-left: -50px;
-}
 
-.navbar-toggler {
-    margin-right: 10px;
-}
 
 
 /*------- Index.html on Tablet -------*/
