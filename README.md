@@ -125,6 +125,14 @@ pre-included CSS and javascript elements make it much easier to keep a similar d
 a great mobile first layout that will adapt very well as well as my belief that I can make use of the jumbotron function 
 to easily achieve the rectangle and squares based layout I designed in my wireframes.
 
+The layout was an interesting choice, as the site was originally designed as a 5 page site, with all 5 of those pages easily
+reachable via the navbar, but, due to the simplicity of the sections and the fact alot of my content was repeating itself, my
+mentor adviced that I could very likely achieve a site that was more functional and far simpler by making it one page. I was
+able to move the sections directly across with very little adjustment and by only removing a few repeating parts and convert
+the entire thing into a one page website, with the navbar still working, but simply navigating to different headers instead of
+html files. This does mean that my wireframes are somewhat outdated now, but I feel they still show the design well as the
+sections - for the most part - look the same, but are simply now on one page.
+
 [Back to Table of Contents](#links-to-relevant-articles)
 
 <a></a>
@@ -548,6 +556,23 @@ copies of the icons show, fixing the issue.
 The issue was fixed and now appears as intended on all primary devices. I'm happy with the result.
 
 [Back to Table of Contents](#links-to-relevant-articles)
+
+##### Image and Text sizes
+
+* **Bug**
+A big problem I had with the site at first was that it wasn't adapting well to different sizes, and I was having
+to rewrite nearly all my css in media queries to adjust for tablet and phone layouts (and even these weren't very
+reliable).
+
+* **Fix**
+I spoke with my mentor about this and was advised that my use of pixel values everywhere was a big part of it, so 
+I temporarily commented out my media queries, went through my CSS piece by piece and replaced every single pixel
+value with a vw, vh or em value instead.
+
+* **Result*
+The site now adjusts brilliantly to different sizes as alot of my pixel values were also just fighting Bootstrap's 
+default implementation. The result is that it looks brilliant and I was able to massively shrink down and optimise
+my CSS, taking it from nearly 800 lines of code to less than 300. 
 
 ---
 
