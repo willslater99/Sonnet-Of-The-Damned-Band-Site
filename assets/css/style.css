@@ -13,23 +13,20 @@ html {
 
 /*------- Navbar -------*/
 
-#band-logo {
-    width: 30rem;
-    height: 4rem;
-}
-
 .navbar-nav > li {
     display: inline-block;
     float: none;
-    font-size: 3.5rem;
+    font-size: 2.0rem;
     margin: 0 3rem;
     color: #ffffff;
     font-family: 'Russo One', sans-serif;
 }
 
 #navbarmenu > ul {
-    display: inline;
+    display: inline-flex;
     text-align: center;
+    margin-right: 3rem;
+
 }
 
 .navbar-brand {
@@ -45,14 +42,23 @@ html {
     margin-right: 1.3rem;
 }
 
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.custom-toggler .fa-bars {
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .custom-toggler.navbar-toggler {
   border-color: #ffffff;
   border-width: 0.2rem;
+  color: #ffffff;
 } 
+
+#band-logo {
+    height: 4rem;
+    width: 20rem;
+    display: block;
+    margin: 0 auto;
+}
 
 /*------- Social Links -------*/
 
@@ -84,11 +90,11 @@ html {
 }
 
 #social-desktop {
-    display: block;
+    display: none;
 }
 
 #social-mobile {
-    display: none;
+    display: block;
 }
 
 /*------- Footer -------*/
@@ -101,15 +107,14 @@ footer {
 }
 
 #legal-info {
-    margin: 2rem;
-    position: absolute;
+    text-align: center;
+    margin: 1.5rem 0.8rem;
 }
 
 .social-links-footer {
-    padding-top: 0.7rem;
-    position: absolute;
-    right: 2rem;
+    display: none;
 }
+
 
 .social-links-footer li a i {
     display: block;
@@ -205,8 +210,7 @@ footer {
 .jumbotron {
     background-color: rgba(0,0,0,.9);
     color: #fff;
-    border-style: solid;
-    border-color: #fff;
+    border: 0.2rem solid #ffffff;
 }
 
 .news-and-new-release {
@@ -230,7 +234,7 @@ footer {
     border-style: none;
 }
 
-.releases-header, .news-header, .about-header, .tour-header, .merch-header {
+.releases-header, .news-header, .about-header, .tour-header, .merch-header, .contact-header {
     font-family: 'Russo One', sans-serif;
     font-size: 3.5rem;
     padding: 1rem 0;
@@ -242,44 +246,64 @@ footer {
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 600px) {
-
-#social-desktop {
-    display: none;
-}
-
-#social-mobile {
-    display: block;
-}
-
-#band-logo {
-    height: 4rem;
-    width: 20rem;
-    display: block;
-    margin: 0 auto;
-}
-
-#legal-info {
-    text-align: center;
-}
-
-.social-links-footer {
-    display: none;
-}
-
-#navbarmenu > ul {
-    display: inline-flex;
-    text-align: center;
-    margin-right: 3rem;
-
-}
-
-}
-
 @media only screen and (min-width: 576px) and (max-width: 992px) {
 
 #band-logo {
     width: 24rem;
     height: 4rem;
 }
+
+#social-mobile {
+    display: none;
+}
+
+#social-desktop {
+    display: block;
+}
+
+#navbarmenu > ul {
+    display: inline;
+    text-align: center;
+}
+
+.social-links-footer {
+    padding-top: 0.7rem;
+    position: absolute;
+    right: 2rem;
+    display: block;
+}
+}
+
+@media only screen and (min-width: 992px) {
+
+#band-logo {
+    width: 30rem;
+    height: 4rem;
+}
+
+#navbarmenu > ul {
+    display: inline;
+    text-align: center;
+}
+
+.social-links-footer {
+    padding-top: 0.7rem;
+    position: absolute;
+    right: 2rem;
+    display: block;
+}
+
+#social-desktop {
+    display: block;
+}
+
+#social-mobile {
+    display: none;
+}
+
+#legal-info {
+    margin: 2rem;
+    position: absolute;
+}
+
 }

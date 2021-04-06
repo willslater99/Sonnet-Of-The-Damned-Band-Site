@@ -227,6 +227,8 @@ All 15 wireframes are viewable below:
 
 #### [Mobile](https://github.com/willslater99/Sonnet-Of-The-Damned-Band-Site/blob/main/wireframes/sonnet-about-mobile-wireframe.png)
 
+#### **What Has Changed**
+
 It may seem strange that I have wireframes designed for 5 different pages when my website is a single smooth
 scrolling page, but this was a conscious decision during the project, realising on the recommendations of others 
 that looked at the site that as its only 5 pages and each page is very small, it would make more sense to have
@@ -583,21 +585,20 @@ This project was deployed using GitHub by following the steps given below, which
 has been written, committed and pushed to GitHub.
 
 1. Log into your GitHub account. 
-2. Enter the repository and then go to the **Settings** tab.
-3. Scroll down to the 'GitHub pages' section and then the 'Source' piece within it.
-4. Select 'Branch: Main' from the dropdown menu and then select the folder of 'Root'.
-5. Click 'Save' and then wait a couple minutes and it should be up and working.
-6. Now its completely viewable at https://willslater99.github.io/Sonnet-Of-The-Damned-Band-Site/ and any and all commit's and pushes from relevant IDE's (such as GitPod) 
-will automatically update it.
+2. Enter the repository and then go to the `Settings` tab.
+3. Scroll down to the `GitHub pages` section and then the `Source` piece within it.
+4. Select `Branch: Main` from the dropdown menu and then select the folder of `Root`.
+5. Click `Save` and then wait a couple minutes and it should be up and working.
+6. Now its completely viewable at https://GithubUserName.github.io/Sonnet-Of-The-Damned-Band-Site/.
 
 If you want to run the project locally:
 
 1. Log into your GitHub account.
-2. Click the 'Code' dropdown and then within it, select the HTTPS option and copy the link displayed.
-3. Open your IDE and open the Git Terminal. 
+2. Click the `Code` dropdown and then within it, select the `HTTPS` option and copy the link displayed.
+3. Open your `IDE` and open the `Git` environment.
 4. Set your working directory to the intended directory for the cloned repository.
-5. Use the 'git clone' command and paste in the URL copied from before. 
-6. Enter and it will create your clone repository. 
+5. Use the `git clone` command and paste in the URL copied from before and press enter.
+6. Your clone repository will be created. 
 
 [Back to Table of Contents](#links-to-relevant-articles)
 
